@@ -20,7 +20,7 @@
 <header class="topbar">
   <a class="brand" href="#home" aria-label="The UPI MDR Story home"><span class="brandmark"><span></span><span></span><span></span></span><span>UPI <b>/</b> MDR <small>THE INDEPENDENT FILE</small></span></a>
   <nav aria-label="Main navigation" class="desktop-nav">
-    <a href="#story">The story</a><a href="#distribution">Fee split</a><a href="#timeline">Timeline</a><a href="#court-trade">Court & trade</a><a href="#funding-audit">Funding audit</a><a href="#gst-rail">GST & rails</a><a href="#numbers">The numbers</a><a href="#calculator">Cost lab</a><a href="#claims">Claim tracker</a><a href="#evidence">Evidence</a>
+    <a href="#story">The story</a><a href="#distribution">Fee split</a><a href="#timeline">Timeline</a><a href="#court-trade">Court & trade</a><a href="#funding-audit">Funding audit</a><a href="#gst-rail">GST & rails</a><a href="#numbers">The numbers</a><a href="#merchant-mix">Merchant mix</a><a href="#calculator">Cost lab</a><a href="#claims">Claim tracker</a><a href="#evidence">Evidence</a>
   </nav>
   <a class="header-cta" href="https://github.com/Ashish-Bhatia/upi-mdr-analysis" target="_blank" rel="noopener noreferrer">View the research <span aria-hidden="true">↗</span></a>
   <button class="menu-button" id="menu-button" aria-controls="mobile-nav" aria-expanded="false" aria-label="Open navigation">☰</button>
@@ -134,6 +134,28 @@
     <p class="money-foot">Method: the FY2026–27 budget is authoritative for the <em>outlay and targets</em>; it does not establish disbursement. The circulating circular copy is not authenticated on an NPCI domain, so the capital-market allocation question remains an explicit unresolved issue. Follow the complete <a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis/blob/main/research/funding-operations.md" target="_blank" rel="noopener noreferrer">funding and operations audit ↗</a>.</p>
   </div></section>
 
+
+<section class="section mix-section" id="merchant-mix"><div class="container">
+  <div class="section-intro"><div><span class="kicker">EDITION 06 / THE REAL DENOMINATOR</span><h2>Four percent of payments.<br><span class="muted">Two-thirds of merchant value.</span></h2></div><p>August 2026 P2M ticket-band data show why the official claim that 96% of merchant transactions remain free is not a claim about 96% of turnover. These bars represent transaction size, NOT final MDR eligibility.</p></div>
+  <div class="mix-panels">
+  <article><span class="mix-eyebrow">SHARE OF P2M TRANSACTIONS · COUNT</span><div class="mix-bars" role="img" aria-label="August 2026 merchant transaction count: 86 percent 500 rupees or less, 10 percent 501 through 2000 rupees, 4 percent over 2000 rupees"><div class="mix-a" style="width:86%"></div><div class="mix-b" style="width:10%"></div><div class="mix-c" style="width:4%"></div></div><div class="mix-big">4<span>%</span></div><p>Merchant payments over ₹2,000, by count.</p></article>
+  <article><span class="mix-eyebrow">SHARE OF P2M TRANSACTIONS · VALUE</span><div class="mix-bars" role="img" aria-label="August 2026 merchant value: 16 percent 500 rupees or less, 17 percent 501 through 2000 rupees, 67 percent over 2000 rupees"><div class="mix-a" style="width:16%"></div><div class="mix-b" style="width:17%"></div><div class="mix-c" style="width:67%"></div></div><div class="mix-big">67<span>%</span></div><p>Merchant value in payments over ₹2,000.</p></article>
+  </div>
+  <div class="mix-legend"><span><i class="mix-a"></i> ≤₹500</span><span><i class="mix-b"></i> ₹501–₹2,000</span><span><i class="mix-c"></i> >₹2,000</span></div>
+  <div class="mix-caption"><p>Source: <a href="https://www.moneycontrol.com/news/business/upi-payments-above-rs-2-000-double-in-three-years-but-share-declines-14031173.html" target="_blank" rel="noopener noreferrer">Moneycontrol's named 16 September 2026 analysis ↗</a>, referring to August merchant transactions. The ~620 million larger merchant payments were ~2.53% of all August UPI transactions, versus 4% of P2M payments. The two denominators are not interchangeable.</p><p><a href="https://data.indiadispatch.com/payments" target="_blank" rel="noopener noreferrer">India Dispatch's NPCI-attributed series ↗</a> reports September P2M as 63.3% of all UPI count but 30.2% of UPI value. Direct source collection of the corresponding NPCI September P2M table remains pending.</p></div>
+  <div class="revenue-lab">
+   <div><span class="mix-eyebrow">HYPOTHETICAL REVENUE SENSITIVITY</span><h3>Model merchant fees without treating every rupee as eligible.</h3><p>The starting amount is <strong>₹5,99,864.86 crore</strong>: August P2M value ₹8,95,320.68 crore × the published approximate 67% above-₹2,000 share. Choose an assumed MDR-eligible fraction and an effective average rate.</p><p>This is a cross-source approximate scenario, NOT an estimate of fees being collected, nor a model of the actual caps/MCC composition. Actual eligibility and tariff-weighted net rates are not verified.</p></div>
+   <div class="revenue-controls">
+     <div class="mix-control"><label for="mix-eligibility">Assumed share of high-ticket P2M value truly eligible: <strong id="mix-eligibility-value">50%</strong></label><input type="range" min="0" max="100" step="5" value="50" id="mix-eligibility"></div>
+     <div class="mix-control"><label for="mix-rate">Hypothetical effective MDR after all pricing effects: <strong id="mix-rate-value">0.25%</strong></label><input type="range" min="0" max="0.40" step="0.01" value="0.25" id="mix-rate"></div>
+     <div class="mix-result"><span>MONTHLY SCENARIO (AUGUST BASE)</span><strong id="mix-monthly">₹749.83 crore</strong></div>
+     <div class="mix-result"><span>12× STATIC ANNUALISATION, NOT A FORECAST</span><strong id="mix-annual">₹8,997.97 crore</strong></div>
+     <p class="mix-small">Changing a slider changes hypothetical assumptions, not the evidence. A full 100% base at 0.25% produces ~₹1,500 crore monthly, illustrating the reported researchers' arithmetic but NOT proving their eligibility or realised collections.</p>
+   </div>
+  </div>
+  <div class="data-warning"><span class="warning-icon">!</span><div><strong>Court-file false positive detected</strong><p>The Supreme Court has a signed <a href="https://api.sci.gov.in/supremecourt/2026/5777/5777_2026_1_8_68773_Order_16-Feb-2026.pdf" target="_blank" rel="noopener noreferrer">16 February 2026 Anjan Datta order ↗</a>. It predates the September MDR notices and says only to tag W.P.(C) 152/2026 with another case. Matching the petitioner's name is not proof this is the still-unretrieved 28 September UPI MDR hearing order.</p></div></div>
+</div></section>
+
   <section class="section calculator-section" id="calculator"><div class="container">
     <div class="section-intro"><div><span class="kicker">04 / THE COST LAB</span><h2>Run the numbers.<br><span class="muted">See the assumptions.</span></h2></div><p>Evaluate illustrative MDR under the September framework, not a fee being collected today. This is a policy simulator, not a live payment-rail quotation.</p></div>
     <div class="calculator-grid">
@@ -176,5 +198,5 @@
     <div class="method-note">Research cutoff: <strong>15 October 2026</strong>. The site is a dated public-interest research edition, not an automatically refreshed live news service. Its Git history preserves subsequent corrections and revisions. <a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis/issues" target="_blank" rel="noopener noreferrer">Suggest a correction ↗</a></div>
   </div></section>
 </main>
-<footer class="footer"><div class="container footer-inner"><div><strong>THE UPI MDR STORY<span>.</span></strong><p>An independent analysis of public records, policy and payment economics. No institutional affiliation is claimed.</p></div><div class="footer-links"><a href="#home">Back to top ↑</a><a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis" target="_blank" rel="noopener noreferrer">Source code ↗</a><a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis/issues" target="_blank" rel="noopener noreferrer">Corrections ↗</a></div><div class="copyright">EDITION 05 · 15 OCT 2026<br>FOR PUBLIC RESEARCH & EDUCATION</div></div></footer>
+<footer class="footer"><div class="container footer-inner"><div><strong>THE UPI MDR STORY<span>.</span></strong><p>An independent analysis of public records, policy and payment economics. No institutional affiliation is claimed.</p></div><div class="footer-links"><a href="#home">Back to top ↑</a><a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis" target="_blank" rel="noopener noreferrer">Source code ↗</a><a href="https://github.com/Ashish-Bhatia/upi-mdr-analysis/issues" target="_blank" rel="noopener noreferrer">Corrections ↗</a></div><div class="copyright">EDITION 06 · 15 OCT 2026<br>FOR PUBLIC RESEARCH & EDUCATION</div></div></footer>
 </body></html>

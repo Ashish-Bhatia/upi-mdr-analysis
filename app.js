@@ -111,6 +111,23 @@ function setupMoneyFlow(){
  buttons.forEach(b=>b.addEventListener("click",()=>render(Number(b.dataset.value))));
  render(10000);
 }
+
+function setupRevenueSensitivity(){
+ const share=$("mix-eligibility"),rate=$("mix-rate");
+ if(!share||!rate)return;
+ const reportedHighTicketCrore=895320.68*.67;
+ const formatCrore=n=>money(n)+" crore";
+ const draw=()=>{
+  const eligible=Number(share.value)/100,effective=Number(rate.value)/100;
+  const monthly=reportedHighTicketCrore*eligible*effective;
+  $("mix-eligibility-value").textContent=share.value+"%";
+  $("mix-rate-value").textContent=Number(rate.value).toFixed(2)+"%";
+  $("mix-monthly").textContent=formatCrore(Math.round(monthly*100)/100);
+  $("mix-annual").textContent=formatCrore(Math.round(monthly*12*100)/100);
+ };
+ share.addEventListener("input",draw);rate.addEventListener("input",draw);draw();
+}
+
 function initNavigation(){
  const menu=$("menu-button"),panel=$("mobile-nav");
  menu?.addEventListener("click",()=>{panel.hidden=!panel.hidden;menu.setAttribute("aria-expanded",String(!panel.hidden));menu.setAttribute("aria-label",panel.hidden?"Open navigation":"Close navigation")});
@@ -124,5 +141,5 @@ function initNavigation(){
  }
  document.addEventListener("scroll",onScroll,{passive:true});onScroll();
 }
-renderTimeline();renderSources();setupClaims();setupCalculator();setupMoneyFlow();renderChart();initNavigation();
+renderTimeline();renderSources();setupClaims();setupCalculator();setupMoneyFlow();setupRevenueSensitivity();renderChart();initNavigation();
 })();

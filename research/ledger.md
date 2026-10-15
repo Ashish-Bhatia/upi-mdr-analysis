@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 05 | Research cutoff: 15 October 2026 | India
+Edition 06 | Research cutoff: 15 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -213,3 +213,22 @@ See [full Edition 03 investigation](litigation-trade-surveys.md) for citations, 
 **Next work:** validate affected unregistered-merchant count, complete bank/PSP tax invoicing process, actual ITC uptake, receipt categories and separate credit-/account-funded transaction volumes. No such microdata or post-implementation observations are yet verified.
 
 [Edition 05 detailed source audit](tax-and-funding-rails.md).
+
+
+---
+
+# Edition 06 verification: transaction denominators, research math and court-record disambiguation
+
+**A. 2026 source tiers.** Original [NPCI P2P/P2M ecosystem page](https://www.npci.org.in/what-we-do/upi/upi-ecosystem-statistics) was directly available with an **August 2025** screenshot/snapshot showing P2M count 12,705.16 million and P2M value ₹7,23,797.42 crore. It must not be mislabeled a September 2026 original. The [official NPCI monthly totals](https://www.npci.org.in/product/upi/product-statistics) establish all-UPI August 2026 volume 24,508.96 million and value ₹29,82,355.95 crore, but not the merchant split.
+
+**B. Direct historical RBI corroboration.** [RBI Bulletin research, October 2024](https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22933) cites P2M shares changing from 45.2% to 61.7% *count*, 16.6% to 26.2% *value* (April 2021 to March 2024). This supports the count/value distinction but **does not authenticate September 2026 shares**. [India Dispatch](https://data.indiadispatch.com/payments) attributes Sep 2026 63.3%-by-count and 30.2%-by-value P2M to NPCI but is a secondary compilation. [Indiagraphs](https://indiagraphs.com/data/india-upi-p2p-vs-p2m-transactions/p2m-transaction-value) publishes August P2M value ₹8,95,320.68 crore with licensed raw data inaccessible here.
+
+**C. Source-specific ticket bands.** [Moneycontrol, 16 Sept, by Ishaan Gera](https://www.moneycontrol.com/news/business/upi-payments-above-rs-2-000-double-in-three-years-but-share-declines-14031173.html) reports August 2026 merchant payments: above ₹2,000 ~4% count and 67% value (~620 million transactions/~₹6 lakh crore). Under ₹500: 86% count, 16% value. ₹501–2,000: 10% count, 17% value. These percentages sum to 100 within P2M, and are **not** all-UPI counts, actual MDR qualifications or audited original microdata. Above-₹2,000 P2M count is ~2.53% of all-August UPI count using the report's rounded 620m and official 24,508.96m.
+
+**D. Model reconstruction.** ₹8,95,320.68 crore August P2M × approximate 67% high ticket share = **₹5,99,864.86 crore**. × 0.4% = **₹2,399.46 crore nominal monthly uncapped arithmetic**, not realised fees; × 0.25% = **₹1,499.66 crore/month**, ×12 = ~**₹17,995.95 crore static annualisation**. These reconstruct the rough academic reported ₹1,500 crore monthly/₹18,000 crore annualisation by arithmetic, not independent validation of its eligible base or tariff weighting. See [economics](economics.md).
+
+**E. Signed Supreme Court order misidentification warning.** An [official, genuine 16 February 2026 ROP PDF](https://api.sci.gov.in/supremecourt/2026/5777/5777_2026_1_8_68773_Order_16-Feb-2026.pdf) exists for **ANJAN DATTA v UNION OF INDIA, W.P.(C) 152/2026**, counsel Ashutosh Dubey, which only says **Tag with W.P.(C) 101/2026**. It predates the September MDR instrument and is **not** the signed 28 September MDR hearing order. Matching litigant/counsel names would create a false-positive identification. We must continue seeking official record for separately reported Diary 57387/2026. See the source record S50.
+
+**F. Original academic work retrieval.** Original Ashish Das/Praggya Das [40-page PDF](https://www.math.iitb.ac.in/~ashish/workshop/MDR_on_UPI_Oct11.pdf) appears in indexed search as published 11 October 2026, but both direct web-open and container download failed. The [ET Now article](https://www.etnownews.com/news/upi-mdr-may-burden-costs-on-consumers-flags-iit-bombay-report-seeks-framework-tweak-before-implementation-article-156320435) is explicitly secondary coverage. Do not claim page-level reading of the full original.
+
+[Full Edition 06 report](merchant-value-audit.md).

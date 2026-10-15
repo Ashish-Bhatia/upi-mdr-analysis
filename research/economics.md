@@ -100,3 +100,26 @@ For eligible standard bank-funded P2M, proposed MDR = min(0.4% × transaction, �
 The example assumes the stated 18% service GST rate, whole-paise rounding and fully valid ITC where indicated. It does not establish actual settlement invoicing conventions. Current UPI account-funded MDR collection was **deferred**, not effective as of October 15.
 
 Sources: [PIB April 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2122747), [NPCI GST statement reported in Indian Express September 22](https://indianexpress.com/article/business/npci-clarifies-18-percent-gst-on-upi-payments-over-2000-mdr-merchant-impact-10889118/), [CBIC](https://cbic-gst.gov.in/input-tax-credit-rules.html).
+
+
+## 10. Edition 06: reconstructing the high-value August merchant base
+
+Moneycontrol's [16 September 2026 named analysis](https://www.moneycontrol.com/news/business/upi-payments-above-rs-2-000-double-in-three-years-but-share-declines-14031173.html) reports **4%** of August P2M transaction *count* above ₹2,000, contributing **67%** of P2M transaction *value*. The same report indicates approximately **620 million** high-ticket transactions in approximately **15.5 billion** merchant payments. Ticket-band count shares are ≤₹500: 86%; ₹501–₹2,000: 10%; >₹2,000: 4%. Value shares are 16%, 17% and 67% respectively.
+
+A separately [NPCI-attributed compilation](https://indiagraphs.com/data/india-upi-p2p-vs-p2m-transactions/p2m-transaction-value) reports **₹8,95,320.68 crore** of total P2M value in August 2026. Its downloaded raw series was not accessible, so these publications should not be described as direct independent audits of the same underlying NPCI transaction cube.
+
+| Computation | Value | Meaning |
+|---|---:|---|
+| August total merchant value reported by compilation | ₹8,95,320.68 crore | **P2M** (not all UPI) |
+| × approx 67% over-₹2,000 ticket share | ₹5,99,864.86 crore | Approximate high-ticket **P2M** base |
+| × 0.40% uncapped nominal fee | ₹2,399.46 crore/month | *Hypothetical upper arithmetic* **before exclusions, tiering and caps** |
+| × 0.25% effective illustrative fee | ₹1,499.66 crore/month | Modeled scenario, **not actual receipts** |
+| 12 × ₹1,499.66 crore | ₹17,995.95 crore | Static annualisation of one month, not a forecast |
+
+The ≈₹1,500-crore/month arithmetic matches the [secondary account of the Das–Das paper](https://www.etnownews.com/news/upi-mdr-may-burden-costs-on-consumers-flags-iit-bombay-report-seeks-framework-tweak-before-implementation-article-156320435), but its **assumed effective 0.25% rate is not independently demonstrated**. The original academic PDF was discoverable in search but its full text timed out.
+
+**Do not treat 0.40% on this ticket band as actual maximum collections.** The tariff has special-sector flat ₹5 fees, capital-market 0.02%, ₹300 caps, exempt P2PM and different funding instruments. Observed transaction totals alone cannot identify qualifying transaction-level charges. Published ticket bands can anchor *scenario sensitivity* but not a verified revenue forecast.
+
+A [NPCI-attributed September payment-series analysis](https://data.indiadispatch.com/payments) reports **63.3% P2M share of ALL UPI count** and **30.2% share of ALL UPI value**. In August, the approximately 620 million >₹2,000 merchant payments were about **2.53% of the 24,508.96 million total UPI network count** per [NPCI monthly data](https://www.npci.org.in/product/upi/product-statistics), versus 4% of *merchant* count. This is a denominator correction; it does not change the reported 96% merchant-count exemption narrative.
+
+**Policy significance:** A payment fee may affect a low share of transaction count yet a disproportionately large share of merchant turnover. Merchant margins, surcharges, incentives and realised chargeability vary by sector. The cost incidence study must weight both merchants and transaction value, not just count.

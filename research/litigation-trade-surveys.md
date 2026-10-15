@@ -62,3 +62,8 @@ Publisher: [LocalCircles](https://www.localcircles.com/a/press/page/upi-mdr-cons
 5. Track actual time series only *after* an authenticated activation notification. Use seasonally matched P2M distribution, cash/cardless alternatives and control comparisons rather than unconditioned forecasts.
 
 **Editorial correction:** Previous editions omitted the September 28 hearing. This file documents the correction explicitly. No claim of having seen the signed court order is made.
+
+
+### Edition 06 false-positive court PDF audit (15 October)
+
+A search for the September MDR petitioner returned a genuine [16 February 2026 Anjan Datta v Union of India Record of Proceedings](https://api.sci.gov.in/supremecourt/2026/5777/5777_2026_1_8_68773_Order_16-Feb-2026.pdf), W.P.(C) 152/2026. The one-page order simply says “Tag with W.P.(C) No.101/2026.” Although the name Anjan Datta and AOR Ashutosh Dubey overlap with the reported later UPI MDR litigation, this PDF is from **seven months before** the September 2026 MDR notices and cannot be treated as the requested signed September 28 order. The reported later Diary No. 57387/2026 remains pending primary verification.
