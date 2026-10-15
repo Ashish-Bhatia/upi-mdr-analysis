@@ -152,3 +152,27 @@
 .evaluation-npci h3{font-size:22px;line-height:1.35;margin:12px 0}
 @media(max-width:850px){.evaluation-stats,.evaluation-funding{grid-template-columns:1fr}}
 @media(max-width:550px){.evaluation-stats article,.evaluation-funding,.evaluation-npci{padding:20px}.evaluation-table th,.evaluation-table td{padding:9px 6px;font-size:11px}}
+
+/* Edition 08: proposals vs binding rules */
+.rulebook-section{background:radial-gradient(ellipse at 100% 0%,rgba(76,127,104,.12),transparent 50%),#0c1b2c}
+.rulebook-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.rulebook-cards article,.rulebook-contrast,.rulebook-evidence article{background:#14263b;border:1px solid var(--line);border-radius:12px;padding:23px}
+.rulebook-cards article>span:first-child,.rulebook-status-panel>span,.rulebook-examples span,.rulebook-evidence span{color:var(--blue);letter-spacing:1px;font-size:10px;font-weight:700}
+.rulebook-cards strong{display:block;font:700 32px "Space Grotesk",sans-serif;color:var(--green);margin:15px 0;letter-spacing:-1px}
+.rulebook-cards strong small{font-size:12px;color:#b2ced2;letter-spacing:0}
+.rulebook-cards h3{font-size:18px;line-height:1.3;margin:12px 0}
+.rulebook-cards p,.rulebook-contrast p,.rulebook-evidence p{color:#a7bacd;font-size:12px;line-height:1.85}
+.rulebook-status{display:block;font-size:10px;color:#d0ead9;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.rulebook-contrast{display:grid;grid-template-columns:1.4fr .85fr;gap:24px;margin:20px 0}
+.rulebook-contrast h3{font-size:25px;margin:5px 0 12px}
+.rulebook-examples{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:17px}
+.rulebook-examples article{border:1px solid #304b60;padding:17px;border-radius:9px}
+.rulebook-examples p{margin:9px 0}
+.rulebook-examples strong{color:#dbf4ec}
+.rulebook-status-panel{border-left:1px solid var(--line);padding-left:22px}
+.rulebook-status-panel a,.rulebook-evidence a{color:var(--green);font-size:12px}
+.rulebook-evidence{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:18px}
+.rulebook-evidence h3{font-size:21px;margin:12px 0}
+@media(max-width:1080px){.rulebook-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:750px){.rulebook-contrast,.rulebook-evidence,.rulebook-examples{grid-template-columns:1fr}.rulebook-status-panel{border-left:0;border-top:1px solid var(--line);padding:19px 0 0}}
+@media(max-width:500px){.rulebook-cards{grid-template-columns:1fr}.rulebook-cards article,.rulebook-contrast,.rulebook-evidence article{padding:20px}}

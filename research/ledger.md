@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 07 | Research cutoff: 16 October 2026 | India
+Edition 08 | Research cutoff: 16 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -279,3 +279,19 @@ The Cabinet **approved an estimated FY2024–25 outlay of ₹1,500 crore**, wher
 **Further work:** pursue full Ipsos PDF using government archive or alternate DFS host, raw survey questionnaire/weights, original OC-237 on NPCI's server, SCI signed 28 September order, and actual scheme financial releases.
 
 [Full Edition 07 audit](evaluation-and-primary-notice.md).
+
+
+---
+
+# Edition 08 — Exemption proposal and premature policy conclusions (16 October 2026)
+
+- **Reported proposed amendment (S55):** [Business Standard, 8 October 2026](https://www.business-standard.com/amp/finance/news/festival-breather-upi-merchant-fee-may-be-deferred-till-january-1-126100800036_1.html?isa=yes), reporters Ajinkya Kawale/Archis Mohan, citing unnamed Steering Committee-related sources, described two separate possibilities: a start date of **1 January 2027** and expansion of the zero-MDR merchant exemption to annual turnover of **₹40 lakh**. The article reports NPCI did not respond to comment before publication. These were **not formal notifications**.
+- **Chronologically later official source (S52):** NPCI's [13 October press release](https://www.npci.org.in/uploads/UPI_MDR_on_Select_Merchant_Transactions_Shall_be_Implemented_Post_Diwali_4c9cdd77d5.pdf) confirms a deferral until post-Diwali with the exact new date **separately notified**, and says nothing about an amendment to the merchant-exemption definition. Thus neither January 1 nor ₹40 lakh qualifies as implemented policy at the research cutoff.
+- **Different policy denominators:** Existing announced P2PM merchant classification refers to **≤₹1 lakh inward UPI receipts per month**, and NPCI FAQ Q29 discusses three consecutive months over the limit. The reported new proposal refers to **total annual merchant turnover** up to ₹40 lakh. A merchant with high cash/credit sales but relatively little incoming UPI may pass the monthly UPI test and fail the annual turnover test; the converse is possible. Never annualise ₹1 lakh ×12 and compare directly to ₹40 lakh without explicitly changing variables.
+- **Academic proposal differs again:** Das and Das paper (reported secondary summaries) suggests offline MDR for very large merchants above ₹50 crore annual sales and lower provider remuneration. This is neither the announced monthly P2PM test nor a negotiated government exemption.
+- **Existing non-bank UPI products:** [Google merchant help](https://support.google.com/pay-offline-merchants/answer/13591970?hl=en) uses **₹20 lakh annual business turnover** for certain RuPay credit-card, credit-line and wallet-funded UPI merchant tariffs, with its own payment-acceptance requirements. This must not be substituted for the bank-funded framework's P2PM definition.
+- **RBI Governor's October 7 reported expectation (S56):** Sanjay Malhotra told reporters he expected a small MDR not to materially reduce UPI volumes, and did not observe a decline before rollout. This is **pre-policy judgement**, not actual MDR effect. [LocalCircles October 4](https://www.localcircles.com/a/press/page/upi-mdr-consumer-survey) forecast a 10% reduction in value/4% volume under hypothetical conditions, also unproven. The forecasts are not mutually disproof of one another; only measured post-activation effects may settle them.
+- **Provider operational communication:** [Google's indexed MDR help article](https://support.google.com/pay-offline-merchants/answer/18716009?hl=en) still surfaced October 15 phrasing on public search (direct open was blocked by automated Google challenge), but its accessible [credit-product help page](https://support.google.com/pay-offline-merchants/answer/13591970?hl=en) contains the current October 13 postponement banner. A historical snippet cannot override NPCI's press statement or prove launch.
+- **Checkout fee taxonomy:** [Indian Express, 12 October](https://indianexpress.com/article/explained/explained-economics/online-payments-tickets-price-rise-reasons-10916419/) reviews platform and convenience charges/dark patterns in online transactions. No such existing add-on should automatically be labelled NPCI OC-237 MDR. Consumer surcharge, merchant network MDR, PSP/aggregator fees, and separate credit-funded UPI MDR require separate transactions and legal invoices.
+
+[Detailed investigation](merchant-exemption-policy-watch.md).
