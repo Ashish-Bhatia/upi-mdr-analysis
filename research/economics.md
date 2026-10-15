@@ -145,3 +145,18 @@ Four distinct reported merchant classification measurements coexist: (1) qualify
 Illustrative profile A: ₹24 lakh annual business sales and ₹1.2 lakh monthly qualifying UPI inflows for three successive months. Published NPCI P2PM rules indicate the monthly UPI criterion triggers reclassification, whereas an **unadopted** ₹40 lakh annual-turnover test would potentially include this trader if all other terms matched. Profile B: ₹60 lakh annual business sales but ₹80,000 incoming UPI per month. The relative conclusions reverse. **These are logical examples, not legal eligibility decisions, and the 40-lakh proposal has no detailed notification.**
 
 Two public predictions are also not experimentally tested: RBI Governor Sanjay Malhotra's [7 October](https://www.business-standard.com/finance/news/small-fee-unlikely-to-impact-upi-transaction-volumes-rbi-governor-on-mdr-126100700606_1.html) expectation of minimal UPI volume impact, and [LocalCircles October](https://www.localcircles.com/a/press/page/upi-mdr-consumer-survey) modelled declines of 4% network volume and 10% value. Neither observes the effects of a fee whose start was deferred by NPCI on October 13. A valid comparative estimate should difference eligible merchant instrument/transaction-size cohorts against unaffected sub-₹2,000 and other appropriate contemporaneous controls with seasonality, cash migration and concurrent digital product changes accounted for.
+
+
+## 13. Edition 09 — source-accounting conflict and reported unit cost
+
+Two first-party Finance Ministry publications give **different cumulative totals for the same FY2021–22–FY2024–25 period**. [Lok Sabha signed 18 Aug 2025 UQ4111 answer](https://sansad.in/getFile/loksabhaquestions/annex/185/AU4111_DBNB6R.pdf?source=pqals): approximately **₹8,730 crore in incentive support**. [DFS 16 Feb 2026 study announcement](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651): **₹8,276 crore in reported annual disbursements**. Arithmetic gap **₹454 crore**. Different accounting terminology, cutoffs or scheme coverage remain possible; none proved. A quantified difference is not a corruption finding.
+
+The first-party [44th Standing Committee Finance report](https://sansad.in/getFile/app/lsscommittee/Finance/18_Finance_44.pdf?source=app), PDF page 8, reproduces a Ministry formula:
+
+`Cost estimate = ₹1.38 per P2M × 15,000 crore P2M = ₹20,700 crore annually`.
+
+The **input ₹1.38 has no disclosed audit breakdown**, so the validity of the cost is unresolved even though the product is mathematically correct. FY2026–27 ₹2,000-crore approved budget compared with ₹20,700 crore = **9.6618%** (approximately 9.66%). Earlier report passages mention 11% of actual costs and 14% of potential MDR receipts; those figures should be disclosed as Committee assertions, not independently verified ratios. An administrative subsidy budget is neither total network revenue nor all ecosystem participant costs.
+
+### Lender economic exposure (not measured)
+
+[Vinod Kothari Consultants' model](https://vinodkothari.com/wp-content/uploads/2026/09/MDR-on-UPI-_-As-applicable-on-Lenders.pdf) identifies a materially different MDR treatment by repayment mode: standard ₹10,000 one-off P2M EMI fee ₹40, eligible debt-collection Industry Program ₹5, and eligible automatic recurring AutoPay outside the new tariff. Annual IRR effects depend on loan tenor, fee-bearing amount, timing and accounting of receipts. The firm's illustrative ₹1 lakh / 12-month / 18%-yield loan with ~₹9,168 monthly EMI and nominal 0.40% fee per payment reports approximately 77bp IRR compression. This is not actual lending data and does not establish that lenders can or will pass fees through. All fee amounts are hypothetical while activation is postponed.

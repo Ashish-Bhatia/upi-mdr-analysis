@@ -2,7 +2,7 @@
 
 Independent public-interest investigation into India's Unified Payments Interface merchant discount rate: policy history, legal framework, merchant costs, subsidy, sectoral exceptions, and alternative funding models.
 
-**Edition:** 08, 16 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
+**Edition:** 09, 16 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
 
 ## GitHub Pages
 
@@ -25,6 +25,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - Funding audit: official FY2026–27 incentive budget, 2020 CBDT refund enforcement, and unresolved capital-market fee distribution.
 - Government evaluation: historical DFS-Ipsos 2025 survey, independent 2026 publication, incentive payout reconciliation, original NPCI postponement PDF.
 - Policy watch: distinguish formally announced ₹1 lakh P2PM UPI receipts, floated ₹40 lakh annual sales, academic ₹50 crore offline scope, and separate credit-funded merchant eligibility. Compare RBI and LocalCircles pre-rollout forecasts.
+- Parliamentary audit: original 2025 Lok Sabha ₹8,730 crore versus 2026 DFS ₹8,276 crore discrepancy, Committee 44th report quote of 32nd-tiered recommendation, Government ₹1.38/P2M cost assumption, conditional lender repayment fees.
 - GST and payment rails: interactive assumed ITC comparison and bank-account versus credit-funded fee distinctions.
 - Merchant mix: sourced August 2026 ticket size/count divergence, conditional revenue sensitivity controls, and audit note on false-positive court record.
 - The Numbers: NPCI Apr–Sep 2026 network volumes and interpretation safeguards.
@@ -43,6 +44,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - [Transaction denominator and revenue sensitivity audit](research/merchant-value-audit.md), including a primary-versus-secondary source matrix.
 - [Original NPCI notice and government incentive evaluation](research/evaluation-and-primary-notice.md), including FY2022–25 incentive disbursements and historical merchant survey method.
 - [Exemption threshold and policy-status audit](research/merchant-exemption-policy-watch.md), comparing proposed, reported and product-specific rules.
+- [Parliament, ₹454 crore discrepancy, industry unit cost and lender scenario audit](research/parliament-cost-and-lender-audit.md), with primary document links.
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
 - GitHub Pages: native branch deployment from `main`, `/(root)` (no custom workflow)
@@ -60,13 +62,13 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 
 ## Latest evidence checkpoint
 
-As of Edition 08: 58 linked source records, 71 claim assessments, 25 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+As of Edition 09: 64 linked source records, 81 claim assessments, 30 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
 
 The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
 
 ## Critical unresolved items
 
-- Official NPCI-domain authentication of Circular OC-237/2026–27 (four-page third-party copy reviewed and corroborated by signed exchange filing).
+- Official NPCI-domain authentication of Circular OC-237/2026–27 (four-page third-party copy reviewed and corroborated by signed exchange filing); NPCI public e-library and member URCS access locations identified.
 - Official Gazette PDFs reliably retrieved (Act 21/2026 and S.O. 5067(E) IDs located, enactment text separately cross-corroborated).
 - Subsequent NPCI implementation notification with a new effective date (original 13 October deferral press PDF has now been obtained and visually checked).
 - Merchant category and ticket-size dataset needed to validate the reported 96% exempt transactions and revenue forecasts.

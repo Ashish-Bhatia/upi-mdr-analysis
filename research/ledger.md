@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 08 | Research cutoff: 16 October 2026 | India
+Edition 09 | Research cutoff: 16 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -295,3 +295,51 @@ The Cabinet **approved an estimated FY2024–25 outlay of ₹1,500 crore**, wher
 - **Checkout fee taxonomy:** [Indian Express, 12 October](https://indianexpress.com/article/explained/explained-economics/online-payments-tickets-price-rise-reasons-10916419/) reviews platform and convenience charges/dark patterns in online transactions. No such existing add-on should automatically be labelled NPCI OC-237 MDR. Consumer surcharge, merchant network MDR, PSP/aggregator fees, and separate credit-funded UPI MDR require separate transactions and legal invoices.
 
 [Detailed investigation](merchant-exemption-policy-watch.md).
+
+
+---
+
+# Edition 09 — first-party Parliament documents and UPI lending impacts (16 October 2026)
+
+## A. New unreconciled official figures
+
+**S59** [Original Lok Sabha Unstarred Question 4111](https://sansad.in/getFile/loksabhaquestions/annex/185/AU4111_DBNB6R.pdf?source=pqals), answered **18 August 2025**, is a signed public Ministry of Finance reply by Minister of State **Pankaj Chaudhary** to **Anand Bhadauria**. It says the Government extended approximately **₹8,730 crore** in ecosystem incentive support in FY2021–22 through FY2024–25. **S53** [DFS–Ipsos press statement](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651), dated **16 February 2026**, says ₹8,276 crore incentive disbursements for FY2021–22 through FY2024–25, broken down 1,389 + 2,210 + 3,631 + 1,046 crore. **Difference ₹454 crore**, or approximately 5.5% of the later disbursement total. Not fraud evidence. 'Support' and 'disbursement' may refer to different bases; neither the month-end cutoff nor adjustments are published alongside the two statements. Seek annual sanction, release, claim, settlement, reversals, instrument splits, and audit reports.
+
+**Historical MDR, newly first-party verified:** The same Lok Sabha reply identifies an NPCI **30 August 2019 circular** permitting acquiring banks to apply UPI P2M MDR of up to 0.30%, before the 2020 zero-MDR regime. The answer says **no proposal at that time in August 2025**, not that no charge could ever be considered subsequently. Future 2026 amendments cannot retroactively make its original August 2025 answer inaccurate.
+
+## B. Original Standing Committee follow-up is now directly reviewed
+
+**S60** [Original 44th Standing Committee on Finance Report (18th Lok Sabha)](https://sansad.in/getFile/app/lsscommittee/Finance/18_Finance_44.pdf?source=app) is a 62-page PDF. Its PDF pages 7–10 include the verbatim reproduced **32nd Report** recommendation, **Department of Financial Services' written response**, and 44th Committee follow-up. The original full 32nd Report remains unreviewed, and S62 is its [official library catalog](https://elibrary.sansad.in/items/435c4f84-01da-4686-aaa9-edda73d105ab/full).
+
+The Committee recommended the Department explore a **self-reliant tiered revenue model** for larger UPI merchants, protect small merchants and P2P, and not rely indefinitely on Treasury support. The reviewed passages **do not explicitly authorise the precise 0.40% rate, ₹300 cap or ₹2,000 ticket threshold** adopted later. Parliament's general recommendation must not be substituted for executive/NPCI detailed rate-setting.
+
+The Ministry response (original PDF page 8) discloses two policy options under consideration **before September's rate announcement**: selectively reintroducing MDR for high-value transaction/merchant cohorts and designing tiered incentives to phase out ongoing public subsidy. It also confirms historic UPI P2M fees up to 0.30% until December 2019.
+
+## C. ₹20,700 crore cost figure is a published formula, not an audited cost register
+
+**Department of Financial Services written reply** in the 44th Report identifies a unit operating-cost estimate of **₹1.38 per P2M transaction**, multiplied by **15,000 crore prior-year merchant transactions**, yielding **₹20,700 crore annual industry cost**. This is a recoverable official calculation, but no bank/TPAP/acquirer cost ledgers, cash expenditures, capital depreciation, cost allocation by P2P/P2M or independent methodology accompany the reply. It is **officially asserted cost**, not independently audited fact.
+
+**Coverage:** ₹2,000 crore FY2026–27 proposed incentive outlay divided by ₹20,700 crore estimate = **9.66%**. The Committee reproduces wording 'merely 11%' in the earlier 32nd recommendation and later refers to 'barely 10 per cent', reflecting differing approximations. These should not be silently forced into exact numeric equality. Committee separately cites government incentive covering '14% of potential MDR collections' without an authenticated transaction-level fee cube.
+
+## D. Loan repayments have specific fee-incidence questions
+
+**S61** [Vinod Kothari Consultants, 20-page original specialist analysis](https://vinodkothari.com/wp-content/uploads/2026/09/MDR-on-UPI-_-As-applicable-on-Lenders.pdf), viewed with its source provenance clearly marked secondary:
+
+- ₹10,000 manual one-off EMI processed as eligible standard P2M could attract **₹40**, excluding GST.
+- A collection account classified as eligible MCC 'Debt Collection' Industry Program could attract **flat ₹5**, not 0.4%. Classification is merchant/acquirer dependent and not automatic for all NBFCs.
+- Qualifying recurring UPI AutoPay mandates are outside *new ordinary-ticket MDR*, consistent with official NPCI FAQ Q22. A lender disbursement to a consumer's bank UPI is not a P2M merchant collection.
+- The paper models ₹1,00,000 nominal 18% 12-month loan, approximate ₹9,168 monthly EMI; each fee at 0.40% ₹36.67 and modeled effective annual IRR drop of 77 basis points to around 17.23%. This is illustrative model, **not realised economic effects**. Check loan timing and repayments before treating exact IRR as independently replicated.
+- The paper argues MDR may remain due after a subsequent commercial refund because initial payment services were performed. This is **an analyst's interpretation**; no authenticated primary OC-237 refund/reversal contractual rule was obtained. It must remain unresolved.
+- S63 [TeamLease September UPI Consolidated Circular 1.0 note](https://teamleaseregtech.com/updates/article/59640/npci-issued-the-upi-consolidated-circular-version-10/) identifies 18 Sep master text with historical OCs consolidated only up to July 31. S64 [NPCI Knowledge Base](https://www.npcisupport.org.in/portal/en/kb/articles/upi-operating-circular-path) confirms member bank URCS/e-library access and public circular listings. Neither alone authenticates OC-237 full original.
+
+## Required additional evidence
+
+1. Official DFS signed letter or audit reconciliation of ₹8,730 crore versus ₹8,276 crore with scheme inclusions and cutoff dates.
+2. Independent breakdown of ₹1.38/P2M cost by acquirer, issuer, PSP and app provider, variable/fixed costs, fraud/cyber risk, GST and cash-flow effects.
+3. Complete source of 32nd Committee report, all paragraphs on UPI MDR and any committee minority/dissent records.
+4. Authenticated OC-237 source, exact MCC classification, loan repayment/manual/AutoPay and refunds/reversals.
+5. Full text of 18 September consolidated UPI master, including fee/consumer pass-through sections.
+6. Empirically test lender IRR scenario from hypothetical bank amortization schedules, not conclude actual pass-through to borrowers.
+7. Track post-Diwali effective date. Deferral is primary-confirmed; no real October 15 MDR collection inferred.
+
+[Complete Edition 09 report](parliament-cost-and-lender-audit.md).

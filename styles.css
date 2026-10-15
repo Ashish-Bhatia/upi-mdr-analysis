@@ -176,3 +176,26 @@
 @media(max-width:1080px){.rulebook-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:750px){.rulebook-contrast,.rulebook-evidence,.rulebook-examples{grid-template-columns:1fr}.rulebook-status-panel{border-left:0;border-top:1px solid var(--line);padding:19px 0 0}}
 @media(max-width:500px){.rulebook-cards{grid-template-columns:1fr}.rulebook-cards article,.rulebook-contrast,.rulebook-evidence article{padding:20px}}
+
+/* Edition 09: parliamentary evidence and loan collections */
+.audittrail-section{background:radial-gradient(ellipse at 7% 10%,rgba(54,105,132,.15),transparent 60%),#101c2e}
+.audittrail-delta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:22px}
+.audittrail-delta article,.audittrail-cost,.audittrail-lender{background:#15263b;border:1px solid var(--line);border-radius:13px;padding:25px}
+.audittrail-delta span,.audittrail-cost-main>span,.audittrail-cost-side>span,.audittrail-intro span,.audittrail-lender-cards span{display:block;color:var(--blue);font-size:10px;letter-spacing:1px;font-weight:700}
+.audittrail-delta strong{display:block;color:var(--green);font:700 37px "Space Grotesk",sans-serif;margin:15px 0}
+.audittrail-delta h3{font-size:17px;margin:0 0 10px}
+.audittrail-section p{font-size:12px;line-height:1.9;color:#afc1d1}
+.audittrail-section a{color:var(--green);font-size:12px}
+.audittrail-cost{display:grid;grid-template-columns:1.5fr .7fr;gap:24px;margin-bottom:22px}
+.audittrail-cost h3,.audittrail-lender h3{font-size:24px;line-height:1.3;margin:14px 0}
+.audittrail-cost-side{border-left:1px solid var(--line);padding-left:22px}
+.audittrail-formula{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:22px 0}
+.audittrail-formula>div{padding:12px;border:1px solid #345569;border-radius:8px;flex:1;min-width:145px}
+.audittrail-formula strong{color:#b4ecc0;font:700 25px "Space Grotesk",sans-serif;display:block}
+.audittrail-formula small{color:#97afc3;font-size:10px;display:block;margin-top:8px}
+.audittrail-formula>b{color:#a1d4bb;font-size:19px}
+.audittrail-lender-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}
+.audittrail-lender-cards article{border:1px solid #344e62;border-radius:10px;padding:20px}
+.audittrail-lender-cards strong{display:block;font:700 32px "Space Grotesk",sans-serif;color:#a5edb5;margin:13px 0}
+@media(max-width:950px){.audittrail-delta,.audittrail-cost,.audittrail-lender-cards{grid-template-columns:1fr}.audittrail-cost-side{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}}
+@media(max-width:530px){.audittrail-delta article,.audittrail-cost,.audittrail-lender{padding:20px}.audittrail-formula{flex-direction:column;align-items:stretch}.audittrail-formula>div{min-width:0;flex:auto}.audittrail-formula>b{align-self:center}}
