@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 02 | Research cutoff: 15 October 2026 | India
+Edition 03 | Research cutoff: 15 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -168,3 +168,16 @@ Critical challenges to test: CASA margin is not equal to incremental UPI revenue
 9. Retrieve signed Supreme Court filings/orders. A September petition report is not an order.
 
 **Revision statement:** Edition 02 replaces the first edition's blanket “original Gazette not located” status with an official instrument ID and link, expands source count to 25, documents the four-page circular copy with domain provenance caveat, and explicitly corrects the 5% fund exception.
+
+
+---
+
+# Edition 03 correction bulletin — 15 October 2026
+
+**Material correction:** Edition 01/02 overemphasised filing while failing to record the Supreme Court's 28 September hearing. Court reporters at Akashvani News, Bar & Bench and The Tribune independently report refusal of interim stay and direction to file counter-affidavits within four weeks. The case was filed by advocate Anjan Datta through AOR Ashutosh Dubey; legal coverage gives **W.P.(C) Diary No. 57387/2026**. The underlying signed court order and current case registry record **have not been directly retrieved**. Do not infer a final merits ruling. NPCI's October 13 postponement was an administrative statement, not an interim order.
+
+**Trade mobilisation:** The CAIT-led meeting occurred on September 30; the trade body's own publication (appearing dated October 5) says AICPDF and AIMRA withdrew their planned October 2 No UPI Day campaign. The press statement documents withdrawal of that call, not an endorsement of MDR and not a finding about whether isolated protests took place.
+
+**Survey evidence:** LocalCircles published 32,796 relevant merchant responses across 242 districts. Its 17%-willingness figure is conditional survey reporting. For consumers, the question about *preferred most-used payment method if UPI has an added cost* received 37,654 answers, with 76% choosing alternative methods. Another question received 31,206 responses and reported 14% accepting an extra charge. The publisher's forecasts of a **10% value drop** and **4% volume drop** are scenarios, not observed outcomes. Respondents to multiple questions must not be assumed unique; sample selection, response bias and representativeness are not established.
+
+See [full Edition 03 investigation](litigation-trade-surveys.md) for citations, chronological analysis and open questions.

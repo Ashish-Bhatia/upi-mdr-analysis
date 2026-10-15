@@ -2,7 +2,7 @@
 
 Independent public-interest investigation into India's Unified Payments Interface merchant discount rate: policy history, legal framework, merchant costs, subsidy, sectoral exceptions, and alternative funding models.
 
-**Edition:** 02, 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
+**Edition:** 03, 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
 
 ## GitHub Pages
 
@@ -21,6 +21,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - The Story: editorial narrative and competing arguments.
 - Follow the Money: interactive, source-qualified fee waterfall, fund exceptions and FAQ findings.
 - Timeline: source-linked chronology and official-versus-reported classifications.
+- Court & Trade: independently attributed litigation update, retailers' own statements and survey findings with sample-size caveats.
 - The Numbers: NPCI Apr–Sep 2026 network volumes and interpretation safeguards.
 - Cost Lab: functioning proposed-fee calculator with P2P/P2M/P2PM and sector exceptions, compared against a hypothetical alternative.
 - Claim Tracker: search, status filters, claimant records and clickable sources.
@@ -31,6 +32,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 
 - [Research and evidence ledger](research/ledger.md), including Edition 02 legal audit and 26 claim cases
 - [Economics and sensitivity notebook](research/economics.md), including gross-to-net MDR, conditional revenue ceiling and pricing-cliff arithmetic
+- [Litigation, trader and survey investigation](research/litigation-trade-surveys.md), including the corrected September 28 procedural timeline
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
 - GitHub Pages: native branch deployment from `main`, `/(root)` (no custom workflow)
@@ -48,7 +50,7 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 
 ## Latest evidence checkpoint
 
-As of Edition 02: 26 linked source records, 26 attributed/qualified claims, 13 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+As of Edition 03: 34 linked source records, 33 attributed/qualified claims, 17 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
 
 The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
 
@@ -59,7 +61,7 @@ The 0.08% researchers' alternative is **not** merely the same policy with a lowe
 - Original NPCI 13 October deferral press note and subsequent implementation notification (signed Paytm disclosure of deferral now archived in source ledger).
 - Merchant category and ticket-size dataset needed to validate the reported 96% exempt transactions and revenue forecasts.
 - Original full-text researchers' paper, evidence on bank income and audited MDR cost allocations.
-- Original Supreme Court filing/case number and any signed judicial order.
+- Authenticated Supreme Court case status and signed 28 September 2026 order for Anjan Datta v Union of India (reported Diary No. 57387/2026); independent coverage establishes hearing and refusal of interim stay, not a final ruling.
 
 As of this edition, October 15 implementation was **postponed**, per Reuters quoting NPCI on October 13. The next effective date is **unverified** here. No actual merchant charges are inferred.
 
