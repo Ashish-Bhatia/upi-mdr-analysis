@@ -2,7 +2,7 @@
 
 Independent public-interest investigation into India's Unified Payments Interface merchant discount rate: policy history, legal framework, merchant costs, subsidy, sectoral exceptions, and alternative funding models.
 
-**Edition:** 09, 16 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
+**Edition:** 10, 16 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
 
 ## GitHub Pages
 
@@ -21,7 +21,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - The Story: editorial narrative and competing arguments.
 - Follow the Money: interactive, source-qualified fee waterfall, fund exceptions and FAQ findings.
 - Timeline: source-linked chronology and official-versus-reported classifications.
-- Court & Trade: independently attributed litigation update, retailers' own statements and survey findings with sample-size caveats.
+- Court & Trade: newly recovered original-form two-page September ROP in W.P.(C)1199/2026, corroborated by SCI official cause list, with oral-report vs written-order distinction.
 - Funding audit: official FY2026–27 incentive budget, 2020 CBDT refund enforcement, and unresolved capital-market fee distribution.
 - Government evaluation: historical DFS-Ipsos 2025 survey, independent 2026 publication, incentive payout reconciliation, original NPCI postponement PDF.
 - Policy watch: distinguish formally announced ₹1 lakh P2PM UPI receipts, floated ₹40 lakh annual sales, academic ₹50 crore offline scope, and separate credit-funded merchant eligibility. Compare RBI and LocalCircles pre-rollout forecasts.
@@ -45,6 +45,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - [Original NPCI notice and government incentive evaluation](research/evaluation-and-primary-notice.md), including FY2022–25 incentive disbursements and historical merchant survey method.
 - [Exemption threshold and policy-status audit](research/merchant-exemption-policy-watch.md), comparing proposed, reported and product-specific rules.
 - [Parliament, ₹454 crore discrepancy, industry unit cost and lender scenario audit](research/parliament-cost-and-lender-audit.md), with primary document links.
+- [Supreme Court Record of Proceedings and app-cap audit](research/supreme-court-record-edition10.md), with official court listing, two-page ROP and legal analysis.
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
 - GitHub Pages: native branch deployment from `main`, `/(root)` (no custom workflow)
@@ -62,7 +63,7 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 
 ## Latest evidence checkpoint
 
-As of Edition 09: 64 linked source records, 81 claim assessments, 29 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+As of Edition 10: 67 linked source records, 89 claim assessments, 30 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
 
 The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
 
@@ -73,7 +74,7 @@ The 0.08% researchers' alternative is **not** merely the same policy with a lowe
 - Subsequent NPCI implementation notification with a new effective date (original 13 October deferral press PDF has now been obtained and visually checked).
 - Merchant category and ticket-size dataset needed to validate the reported 96% exempt transactions and revenue forecasts.
 - Original full-text researchers' paper, evidence on bank income and audited MDR cost allocations.
-- Authenticated Supreme Court case status and signed 28 September 2026 order for Anjan Datta v Union of India (reported Diary No. 57387/2026); independent coverage establishes hearing and refusal of interim stay, not a final ruling.
+- Obtain SCI-hosted identical original of the recovered W.P.(C)1199/2026 September 28 ROP (currently LiveLaw-hosted original-form copy, official SCI cause-list cross-check) and monitor Nov 2 returnable date and later affidavits. No final merits decision or express written stay refusal appears.
 
 As of this edition, October 15 implementation was **postponed by NPCI in its original 13 October PDF**. The next effective date is **unverified** here. No actual merchant charges are inferred.
 

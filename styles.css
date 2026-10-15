@@ -199,3 +199,17 @@
 .audittrail-lender-cards strong{display:block;font:700 32px "Space Grotesk",sans-serif;color:#a5edb5;margin:13px 0}
 @media(max-width:950px){.audittrail-delta,.audittrail-cost,.audittrail-lender-cards{grid-template-columns:1fr}.audittrail-cost-side{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}}
 @media(max-width:530px){.audittrail-delta article,.audittrail-cost,.audittrail-lender{padding:20px}.audittrail-formula{flex-direction:column;align-items:stretch}.audittrail-formula>div{min-width:0;flex:auto}.audittrail-formula>b{align-self:center}}
+
+/* Edition 10 recovered court record, independently attributed app-cap */
+.court-order-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:19px 0}
+.court-order-grid>div{border:1px solid #34586b;border-radius:8px;background:#193249;padding:12px}
+.court-order-grid strong{color:var(--green);font:700 20px "Space Grotesk",sans-serif;display:block}
+.court-order-grid small{color:#acbed0;font-size:10px;display:block;line-height:1.5;margin-top:6px}
+.appcap-section{background:radial-gradient(ellipse at 90% 12%,rgba(74,135,118,.14),transparent 50%),#0b1829}
+.appcap-content{display:grid;grid-template-columns:.82fr 1.18fr;gap:25px;padding:28px;border:1px solid #365a65;background:#122838;border-radius:14px;align-items:center}
+.appcap-content span{color:var(--blue);font-size:10px;letter-spacing:1px;font-weight:700}
+.appcap-content strong{color:var(--green);display:block;font:700 44px "Space Grotesk",sans-serif;margin-top:10px}
+.appcap-content strong small{font-size:18px}
+.appcap-content p{color:#aec0cf;font-size:13px;line-height:1.85}
+@media(max-width:800px){.appcap-content{grid-template-columns:1fr}}
+@media(max-width:530px){.court-order-grid{grid-template-columns:1fr}.appcap-content{padding:20px}.appcap-content strong{font-size:36px}}

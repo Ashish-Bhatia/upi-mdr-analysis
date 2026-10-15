@@ -1,6 +1,8 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 09 | Research cutoff: 16 October 2026 | India
+Edition 10 | Research cutoff: 16 October 2026 | India
+
+> **Edition 10 supersedes prior statements that the September 28 court ROP is missing.** The registered W.P.(C)1199/2026 original-form two-page ROP is now reviewed from LiveLaw and cross-checked against the official SCI cause list. Prior notes remain as audit history.
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -343,3 +345,20 @@ The Ministry response (original PDF page 8) discloses two policy options under c
 7. Track post-Diwali effective date. Deferral is primary-confirmed; no real October 15 MDR collection inferred.
 
 [Complete Edition 09 report](parliament-cost-and-lender-audit.md).
+
+
+---
+
+# Edition 10, 16 October 2026 — Found the real September 28 Supreme Court ROP
+
+A two-page [original-form Supreme Court Record of Proceedings](https://www.livelaw.in/pdf_upload/2026/10/06/5738720262026-09-28-704692.pdf) has now been viewed in full, including both page images, on LiveLaw's file host. It identifies **Anjan Datta v Union of India & Ors., W.P.(C)1199/2026**, Item 56, Court 1. IA295283/2026 concerns additional documents, and IA288162/2026 is the stay request. Coram: CJI, Joymalya Bagchi and V. Mohana; petitioner AOR Ashutosh Dubey.
+
+**Official independent corroboration:** Supreme Court's [28 September official cause list](https://api.sci.gov.in/jonew/cl/2026-09-28/M_J_2.pdf) includes the matching registered number, petitioner, AOR and IA. This is original Supreme Court evidence of a scheduled listing, while the reproduced ROP is evidence of what was written as operative directions. The order document itself was not retrieved from an official Supreme Court file endpoint.
+
+**ROP page 2:** Issue notice returnable **02 November 2026**; Gurmeet Singh Makker accepts notice for respondents 1, 3 and 4; Alok Tripathi accepts for respondent 2; counter-affidavits **if any** within four weeks. The ROP lists the stay application but does **not expressly record its refusal**. [LiveLaw oral courtroom reporting](https://www.livelaw.in/top-stories/supreme-court-asks-centre-to-explain-decision-to-levy-charges-on-upi-transactions-refuses-stay-552055) says stay was sought and declined, reports Justice Bagchi's questions concerning the legal incidence of a charge under amended payment law and Income-tax Act 269SU, and ASG N. Venkataraman's characterization as a service settlement fee. None of this establishes a final court conclusion on tax character or constitutional validity.
+
+**Procedural dates:** November 2 is a returnable date, *not proof of a confirmed listing or a completed hearing*. Preserve the distinction and check official future cause lists when published. The unrelated February 16 W.P.(C)152/2026 Anjan Datta order is confirmed as a false-positive search result.
+
+**Study proposal detail:** The [Moneylife account of Das/Das alternative](https://www.moneylife.in/article/cut-upi-mdr-to-008-percentage-scrap-banks-70-percentage-share-iitbombay-study-proposes-overhaul-of-merchant-charges/81914.html) reports a per-TPAP monthly MDR receipt limit of **₹50 crore**, with excess diverted to development funding, in addition to 0.06% app and 0.02% PSP. Original paper PDF full text still not retrieved; this is *secondary reporting of a research recommendation*, not an implemented NPCI rule.
+
+[New source-graded research note](supreme-court-record-edition10.md).

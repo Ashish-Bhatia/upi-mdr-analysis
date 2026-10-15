@@ -1,3 +1,5 @@
+> **Edition 10 correction (16 October 2026):** The previously missing September 28 order has now been recovered in original form: [two-page ROP, W.P.(C)1199/2026](https://www.livelaw.in/pdf_upload/2026/10/06/5738720262026-09-28-704692.pdf), supported by the [official SCI cause list](https://api.sci.gov.in/jonew/cl/2026-09-28/M_J_2.pdf). It issues notice returnable **2 November 2026** and allows four weeks for counter-affidavits, if any. The operative ROP does **not explicitly say interim stay refused**; court reporters separately describe that oral development. The ROP is LiveLaw-hosted, not authenticated on the official court order domain. Earlier text below saying the order cannot be retrieved is superseded, preserved for audit history. [Read Edition 10](supreme-court-record-edition10.md).
+
 # UPI MDR: litigation, traders and survey claims | Edition 03
 
 Evidence cutoff: 15 October 2026, India. The original payment framework was deferred by NPCI on October 13. This bulletin distinguishes court proceedings, reported claims, trade statements and survey predictions.
