@@ -51,19 +51,26 @@ function calculate(){
  else if(cat==="capital"){proposed=Math.min(amount*.0002,300);alternative=proposed;reason="Proposed capital-market tariff of 0.02%, subject to ₹300 cap. Alternative comparison holds this special tariff constant."}
  else{proposed=Math.min(amount*.004,300);alternative=Math.min(amount*.0008,40);reason="Standard qualifying P2M fee: 0.4% of payment, capped at ₹300. The comparator is hypothetical 0.08% capped at ₹40."}
  proposed=Math.round(proposed*100)/100;alternative=Math.round(alternative*100)/100;
+ const gst=Math.round(proposed*.18*100)/100, gross=Math.round((proposed+gst)*100)/100;
+ const eligibleItc=$("gst-status")?.value==="full"?gst:0, net=Math.round((gross-eligibleItc)*100)/100;
+ if($("gst-amount"))$("gst-amount").textContent=money(gst);
+ if($("gross-debit"))$("gross-debit").textContent=money(gross);
+ if($("itc-amount"))$("itc-amount").textContent=money(eligibleItc);
+ if($("net-cost"))$("net-cost").textContent=money(net);
  $("fee-amount").textContent=money(proposed);
  $("fee-explanation").textContent=reason;
  $("base-fee").textContent=money(proposed);
  $("alt-fee").textContent=money(alternative);
  $("fee-difference").textContent=money(proposed-alternative);
  $("fee-amount").setAttribute("aria-label","Proposed merchant fee "+money(proposed));
- return {amount,cat,proposed,alternative,reason};
+ return {amount,cat,proposed,alternative,gst,gross,eligibleItc,net,reason};
 }
 function setupCalculator(){
  $("amount")?.addEventListener("input",calculate);
  $("category")?.addEventListener("change",calculate);
+ $("gst-status")?.addEventListener("change",calculate);
  $("copy-calculation")?.addEventListener("click",async()=>{
- const v=calculate(),message="UPI MDR Story — policy simulator (15 Oct 2026)\nAmount: "+money(v.amount)+"\nCategory: "+$("category").selectedOptions[0].text+"\nDeferred proposal: "+money(v.proposed)+"\nHypothetical comparison: "+money(v.alternative)+"\n"+v.reason+"\nSource: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2310586\nNot a live tariff quotation.";
+ const v=calculate(),message="UPI MDR Story — policy simulator (15 Oct 2026)\nAmount: "+money(v.amount)+"\nCategory: "+$("category").selectedOptions[0].text+"\nDeferred proposal: "+money(v.proposed)+"\nHypothetical pre-tax comparison: "+money(v.alternative)+"\n"+v.reason+"\nSource: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2310586\nNot a live tariff quotation.";
  try{
    if(!navigator.clipboard)throw Error("Clipboard unavailable");
    await navigator.clipboard.writeText(message);
