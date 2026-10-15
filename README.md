@@ -62,7 +62,7 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 
 ## Latest evidence checkpoint
 
-As of Edition 09: 64 linked source records, 81 claim assessments, 30 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+As of Edition 09: 64 linked source records, 81 claim assessments, 29 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
 
 The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
 
