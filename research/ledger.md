@@ -1,6 +1,8 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 01 | Research cutoff: 15 October 2026 | India
+Edition 02 | Research cutoff: 15 October 2026 | India
+
+> **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
 ## Verification protocol
 
@@ -80,3 +82,89 @@ This project is independent commentary. It is not affiliated with RBI, NPCI, Gov
 **Named political claim test:** A publicly attributed assertion that the MDR is a tax on every UPI user or is paid straight to the United States conflicts with the Government's documented P2P exemptions and its description of MDR as merchant ecosystem remuneration. The further political allegation of pressure from the United States remains unsubstantiated on the primary evidence gathered, which is different from proving such pressure never existed. Independent evidence of lobbying and causal influence would be needed to settle it.
 
 **Committee endorsement test:** The parliamentary report predates the September tariff. Its issuance and topic are now verified at the Sansad eLibrary catalog level. Without comparing the operative pages of its original PDF with the exact 0.4% plan, do not assert endorsement of the precise rate, exempt threshold, or distribution formula.
+
+
+---
+
+# Edition 02 investigative audit, 15 October 2026
+
+## A. Legislative sequence identified
+
+**17 August 2026:** Act 21 of 2026, the Taxation and Other Laws (Amendment) Act, officially gazetted at [egazette 275521](https://egazette.gov.in/WriteReadData/2026/275521.pdf), amends the Payment and Settlement Systems Act Section 10A. The amendment changes the method for identifying which payment modes receive statutory no-charge protection. It **does not directly set a 0.4% merchant tariff**.
+
+**14 September 2026:** Ministry of Finance (Department of Financial Services), **S.O. 5067(E)**, [Gazette ID CG-DL-E-14092026-276170](https://egazette.gov.in/WriteReadData/2026/276170.pdf), identifies: (i) RuPay-powered debit cards and (ii) UPI transactions up to ₹2,000. Under Section 10A, system providers or banks cannot directly or indirectly charge payers or recipients for those specified modes. Its document number and text are cross-corroborated by [Gazette Tracker](https://www.gazettetracker.com/g/CG-DL-E-14092026-276170) and [JSA law analysis](https://www.jsalaw.com/newsletters-and-updates/jsa-prism-fintech-september-2026/). **The official Gazette PDF timed out during this research pass**. The source is identified, not falsely characterised as fully visually inspected.
+
+**15 September 2026:** NPCI Circular **NPCI/UPI/OC-No.237/2026-27** defines commercial MDR rates and successive onward transfers. A [four-page original-form circular copy hosted on an independent website](https://www.madhyabharatparidrishya.com/wp-content/uploads/2026/09/OC_237_MDR-2026.pdf) was examined visually. This is **not an official NPCI-hosted copy**. Its circular identifier and policy date are independently confirmed by a [signed 15 September Paytm exchange disclosure](https://paytm.com/document/ir/stock-exchange-submissions/fy2026-27/sep/Disclosure_Reg_30_LODR_15_09_2026.pdf). This strengthens provenance but does not certify each scanned page.
+
+**13 October 2026:** The [signed Paytm update lodged with BSE/NSE](https://paytm.com/document/ir/stock-exchange-submissions/fy2026-27/oct/Disclosure_Reg_30_LODR_13_October_2026.pdf) expressly cites NPCI's 13 October statement and describes commencement after Diwali, with date to be notified. This corroborates Reuters and PTI, and supersedes the October 15 start date. The underlying NPCI press release is still not independently archived on an official NPCI domain.
+
+## B. Fee-distribution calculation
+
+The apparent circular sets the following **sequential** fee waterfall on a standard, eligible P2M transaction (before fund contributions and applicable GST):
+
+| Payer → recipient | Rate of transaction amount | At ₹10,000 |
+|---|---:|---:|
+| Merchant → acquiring bank (gross MDR ceiling) | 0.40% | ₹40 |
+| Acquiring bank → issuing bank (interchange) | 0.28% | ₹28 |
+| Issuing bank → payer PSP | 0.12% | ₹12 |
+| Payer PSP → app provider | 0.08% | ₹8 |
+
+The amounts on the right are **transfers**, not independently additive charges to the merchant.
+
+Therefore, the implied retained amounts (gross waterfall less onward obligations) are:
+
+| Participant | Net retained percentage, before other deductions | Amount at ₹10,000 |
+|---|---:|---:|
+| Acquiring bank | 0.12% | ₹12 |
+| Issuing bank | 0.16% | ₹16 |
+| Payer PSP | 0.04% | ₹4 |
+| App provider | 0.08% | ₹8 |
+| **Total** | **0.40%** | **₹40** |
+
+Bank retention totals **0.28% of transaction value = 70% of gross MDR**, matching researchers' criticism of the bank share. Some PSPs are banks and commercial allocations can differ; **this is a conceptual flow, not an audited legal-entity income statement**.
+
+**Industry Program:** Annexure B of the apparent circular lists 10 groups of merchant-category codes. These include debt collection, fuel, agriculture, railway transportation, bill payment (telecom, utilities), government payments, insurance, education, wallet top-ups and tolls/bridges. The special chain is **₹5 MDR → ₹3.50 interchange → ₹1.50 PSP fee → ₹1.00 app fee**. Implied pre-deduction retention is acquiring bank ₹1.50, issuing bank ₹2.00, payer PSP ₹0.50, app ₹1.00.
+
+**Dedicated fund correction (material):** Ministry of Finance's September 15 press release gives a simplified 5%-of-total-MDR statement. Point 10 of the apparent NPCI circular explicitly describes a 5% contribution from each participant's share **excluding Industry Program categories**. It targets merchants with turnover no more than ₹20 lakh annually; this turnover criterion concerns the fund's intended beneficiaries, **not the P2PM ₹1 lakh monthly qualification**. No independently authenticated fund collection account or rules have yet been located. This exception must be shown wherever the fund is quantified.
+
+**GST caveat:** The original-form circular describes rates as **exclusive of applicable GST** and mentions a **1.1092 multiplier**. Do **not** silently apply generic 18% GST to the 0.4% merchant rate or claim the multiplier equals 18% without a validated transactional example. The current calculator displays pre-tax, nominal proposed MDR only. Actual remittance and tax incidence remain outstanding.
+
+## C. Official 42-question NPCI MDR FAQ
+
+[Official NPCI-hosted September 15 FAQ](https://www.npci.org.in/uploads/FA_Qs_Merchant_Discount_Rate_MDR_on_Select_UPI_P2_M_Transactions_58dba1d39e.pdf), independently available from the [Department of Financial Services](https://financialservices.gov.in/sites/default/files/2026-09/FAQs---Merchant-Discount-Rate--MDR--on-Select-UPI--P2M--Transactions_0.pdf), was read. It is primary evidence of NPCI's own position.
+
+- **Q2:** NPCI states payments at or below ₹2,000 are *more than 95% of P2M volume*. The Ministry says roughly **96% remain exempt**, including qualifying P2PM. These are different but compatible estimates. Neither figure independently establishes the **share of transaction value** exempt.
+- **Q5:** Still states October 15 as effective date; it is a dated FAQ rendered **out of date** by the October 13 deferral.
+- **Q8–Q9 and Q27:** Fund intends onboarding support for Tier 3–6, north-east, J&K/Ladakh and scheme-linked categories, with RBI consultation and detailed guidelines projected within three months. The final rules remain unverified.
+- **Q10:** Cites **~₹20,000 crore annual operating expenditure** as an industry estimate. The actual audit scope, P2P/P2M allocation, net costs and total operating expenses are not published within the FAQ. It proves the estimate is publicly asserted, **not that it is true**.
+- **Q17:** States UPI applications cannot levy platform charges.
+- **Q18:** Predicts no general consumer shelf-price effects, without displaying an empirical causal study. This remains an **unresolved economic prediction**, even where explicit surcharge pass-through is prohibited.
+- **Q22:** States recurring UPI AutoPay mandates do not attract prescribed MDR charges. Test this against full operating instructions and MCC category eligibility before forecasting.
+- **Q26:** A *single* payment above ₹2,000 does not cancel confirmed P2PM status.
+- **Q28:** Merchant GST registration is **not** a qualification for P2PM zero MDR.
+- **Q29:** NPCI says formal P2PM → P2M recategorisation occurs after inward UPI credit **above ₹1 lakh monthly for three consecutive months**.
+- **Q33–Q42:** Gives special tariffs and classes, including utilities and education. The third-party circular Annexure B explicitly lists education at ₹5 for above ₹2,000.
+
+## D. Independent researchers' contrary proposal
+
+The 11 October paper attributed to Ashish Das and Praggya Das has a [40-page academic-hosted URL](https://www.math.iitb.ac.in/~ashish/workshop/MDR_on_UPI_Oct11.pdf). The original text was discoverable in public search indexing but **full PDF retrieval failed in this review**. A [detailed Moneylife summary](https://www.moneylife.in/article/cut-upi-mdr-to-008-percentage-scrap-banks-70-percentage-share-iitbombay-study-proposes-overhaul-of-merchant-charges/81914.html) and [Mint numerical account](https://www.livemint.com/money/upi-mdr-from-0-40-to-0-08-what-iit-bombay-report-has-proposed-and-why-it-wants-new-fee-structure-explained-11791805337722.html) report:
+- 0.08% remuneration, split **0.06% app provider and 0.02% PSP**.
+- Remove current scheme's 70% issuer/acquirer bank share and propose contributing around 3% of estimated FY2026 bank CASA margin to digital payment operations, roughly ₹15,000 crore annually.
+- Target *online* merchants and large *offline* merchants exceeding ₹50 crore annual turnover; apply a ₹40 ceiling where relevant.
+- Remove fees for loan repayment channels and maintain digital payment acceptance-infrastructure support.
+
+Critical challenges to test: CASA margin is not equal to incremental UPI revenue; an inferred large CASA resource does not alone establish cross-bank equitable funding, the underlying reported 90% revenue coverage needs granular counterparty data, and alternative cost allocation should account for acquirer fraud, liquidity, compliance, uptime and operational risk. The existing on-site 0.08% comparator deliberately uses only arithmetic with the same ticket-size eligibility and **must not be misrepresented as a full implementation of the research proposal**.
+
+## E. Newly priority open questions
+
+1. Authenticate all four pages of OC-237 against the original NPCI upload; clarify the 1.1092 GST multiplier and fund deductions with a worked bank-acquirer statement.
+2. Retrieve primary Act/Gazette official PDFs reliably, and compare precise notification operative text in all official languages as applicable.
+3. Reproduce the 95%-under-₹2,000 claim, 96%-exempt claim, 70%-P2P-value claim and taxable merchant value with a complete 2026 transaction cube by month, ticket band, merchant category and funding type.
+4. Validate industry annual ₹20,000/₹20,700 crore running-cost estimates independently by cost class and avoid double-counting sunk infrastructure versus per-payment operating cost.
+5. Confirm whether automatic recurring UPI transactions are exempt across all funding types and MCCs.
+6. Obtain complete Das–Das paper and audit its CASA margin, ₹18,000 crore MDR revenue projection and targeted-merchant revenue assumptions.
+7. Track any actual post-Diwali operational notification. The October 15 start is **not in force**, and reports discussing January 2027 are speculative absent notice.
+8. Review the parliamentary committee's exact 32nd report language before attributing support for **specific** 0.4% tariffs.
+9. Retrieve signed Supreme Court filings/orders. A September petition report is not an order.
+
+**Revision statement:** Edition 02 replaces the first edition's blanket “original Gazette not located” status with an official instrument ID and link, expands source count to 25, documents the four-page circular copy with domain provenance caveat, and explicitly corrects the 5% fund exception.
