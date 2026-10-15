@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 04 | Research cutoff: 15 October 2026 | India
+Edition 05 | Research cutoff: 15 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -194,3 +194,22 @@ See [full Edition 03 investigation](litigation-trade-surveys.md) for citations, 
 - **Mandate exception:** OC-237 page 1 note (b): mandate-related pricing excluded from that circular's scope. NPCI FAQ Q22 likewise says prescribed new transaction MDR does not apply to UPI AutoPay standing instructions. This does not imply every possible existing mandate charge is zero.
 
 [Full Edition 04 analysis](funding-operations.md).
+
+
+---
+
+# Edition 05 audit — GST incidence and UPI funding modes (15 October 2026)
+
+**Governmental primary source:** The [Ministry of Finance's April 18, 2025 PIB clarification](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2122747) denied a GST tax on *UPI transferred value*, while explicitly recognising GST on MDR/payment-service charges **when charged**. At that time bank account-funded UPI MDR was zero. It is a misreading to argue the 2025 denial rules out the taxation of a September 2026 proposed processing fee.
+
+**NPCI's reported September 22 clarification:** [Indian Express](https://indianexpress.com/article/business/npci-clarifies-18-percent-gst-on-upi-payments-over-2000-mdr-merchant-impact-10889118/) records 18% GST on nominal MDR, e.g. eligible ₹10,000 bank account P2M produces **₹40 MDR and ₹7.20 fee GST**. It reports NPCI saying input-tax credit reduces incidence for GST-registered merchants. The statement is not proof *every* merchant can claim a credit.
+
+**Statutory eligibility:** [CBIC ITC rules](https://cbic-gst.gov.in/input-tax-credit-rules.html) require registration and documentation. The account-funded P2PM exemption of **≤₹1 lakh monthly incoming UPI** is not a GST registration threshold. Traders above the former can still be unregistered for GST under applicable supply and turnover rules. For an eligible ₹10,000 standard account-funded payment, **₹47.20 gross deduction, ₹40 economic fee with full valid ITC, ₹47.20 if ITC is unavailable**. Tax registration is not by itself proof of complete reclaim eligibility.
+
+**Instrument segmentation:** [Google Pay merchant documentation](https://support.google.com/pay-offline-merchants/answer/13591970?hl=en) explains existing credit-card, credit line and wallet MDR for UPI-linked payments; [NPCI's RuPay credit-card product](https://www.npci.org.in/product/rupay/credit-card-on-upi) establishes separate card-funding restrictions including unavailable P2P/P2PM. Google credit-linked merchant size thresholds based on annual turnover do not measure the same eligibility as bank-funded P2PM monthly credits.
+
+**Live merchant operational notice:** [Google Pay's current settlement Help page](https://support.google.com/pay-offline-merchants/answer/9846840?hl=en), inspected directly on October 15, acknowledges NPCI's October 13 delay and warns that merchants who previously opted out of >₹2,000 payments may need to opt out again when the new MDR actually starts. That is product-specific operational information. A separate search-indexed Google MDR guide continued referencing the original October 15 start, but opening that exact URL returned 404: cite only with the explicit dated-index limitation, and do not suggest the charges went live.
+
+**Next work:** validate affected unregistered-merchant count, complete bank/PSP tax invoicing process, actual ITC uptake, receipt categories and separate credit-/account-funded transaction volumes. No such microdata or post-implementation observations are yet verified.
+
+[Edition 05 detailed source audit](tax-and-funding-rails.md).

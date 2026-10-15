@@ -83,3 +83,20 @@ The third-party-hosted [NPCI OC-237 copy](https://www.madhyabharatparidrishya.co
 Hypothetical capital-market ₹10,000 payment at 0.02% = ₹2 gross. Applying the standard interchange of 0.28% would imply an ₹28 onward transfer and an implicit funding deficit of ₹26 even before other onward transfers. This contradiction demonstrates why an authenticated schedule and regulator clarification are needed, and **does not prove the operational system is actually configured that way**.
 
 The same source page 1 note (b) excludes mandate pricing from OC-237; [official NPCI FAQ](https://www.npci.org.in/uploads/FA_Qs_Merchant_Discount_Rate_MDR_on_Select_UPI_P2_M_Transactions_58dba1d39e.pdf) Q22 confirms the prescribed new MDR excludes recurring AutoPay mandates.
+
+
+## 9. Edition 05: pre-credit and post-credit cost sensitivity
+
+For eligible standard bank-funded P2M, proposed MDR = min(0.4% × transaction, ₹300). Where applicable, GST = 18% × MDR. Gross MDR plus GST is **0.472% of a standard qualifying payment** until the ₹300 MDR cap takes effect, provided no other fees are charged. This is not a GST on the payment itself.
+
+| Eligible transaction | MDR | GST on fee | Gross fee + GST | If full ITC eligible, modeled cost |
+|---|---:|---:|---:|---:|
+| ₹2,000 | ₹0 | ₹0 | ₹0 | ₹0 |
+| ₹3,000 | ₹12.00 | ₹2.16 | ₹14.16 | ₹12.00 |
+| ₹10,000 | ₹40.00 | ₹7.20 | ₹47.20 | ₹40.00 |
+| ₹50,000 | ₹200.00 | ₹36.00 | ₹236.00 | ₹200.00 |
+| ₹1,00,000 | ₹300.00 | ₹54.00 | ₹354.00 | ₹300.00 |
+
+The example assumes the stated 18% service GST rate, whole-paise rounding and fully valid ITC where indicated. It does not establish actual settlement invoicing conventions. Current UPI account-funded MDR collection was **deferred**, not effective as of October 15.
+
+Sources: [PIB April 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2122747), [NPCI GST statement reported in Indian Express September 22](https://indianexpress.com/article/business/npci-clarifies-18-percent-gst-on-upi-payments-over-2000-mdr-merchant-impact-10889118/), [CBIC](https://cbic-gst.gov.in/input-tax-credit-rules.html).
