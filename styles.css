@@ -82,3 +82,20 @@
 .audit-issues h3{font-size:20px;line-height:1.3;margin:12px 0}
 @media(max-width:850px){.audit-grid{grid-template-columns:1fr}.audit-issues{grid-template-columns:1fr}}
 @media(max-width:620px){.audit-primary,.audit-issues article{padding:22px}.audit-number{font-size:48px}}
+
+/* Edition 05: tax and UPI funding modes */
+.tax-section{background:radial-gradient(ellipse at 100% 0%,rgba(75,149,161,.13),transparent 50%),#0e192b}
+.tax-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.tax-cards article{border:1px solid var(--line);border-radius:12px;padding:25px;background:#12283d}
+.tax-cards article>span{font-size:10px;color:var(--blue);letter-spacing:1px;font-weight:700}
+.tax-cards strong{display:block;font:700 43px "Space Grotesk",sans-serif;color:var(--green);margin:17px 0}
+.tax-cards h3{font-size:20px;line-height:1.3;margin-bottom:9px}
+.tax-cards p{color:#a5b9cd;font-size:12px;line-height:1.85}
+.tax-cards a{color:var(--green);font-size:12px;text-underline-offset:4px}
+.tax-notes{margin-top:22px}
+.gst-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:16px 0}
+.gst-results>div{display:flex;flex-direction:column;gap:5px}
+.gst-results span{font-size:11px;color:var(--muted)}
+.gst-results strong{font:600 23px "Space Grotesk",sans-serif}
+@media(max-width:850px){.tax-cards{grid-template-columns:1fr}}
+@media(max-width:540px){.tax-cards article{padding:22px}.tax-cards strong{font-size:39px}.gst-results strong{font-size:19px}}
