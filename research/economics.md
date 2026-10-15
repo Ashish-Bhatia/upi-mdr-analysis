@@ -72,3 +72,14 @@ The academics' alternative asks banks to use a slice of an alleged roughly ₹4.
 - Transparency: audits, fund governance, source material, rate-review process and conflict-of-interest disclosures.
 
 **Finding as of 15 October:** A chargeable mechanism and its nominal flows have been documented. The optimal rate, realised revenue, verified system cost and general price impact remain unresolved on the public materials examined.
+
+
+## 8. Edition 04 — public subsidy and capital-market distribution
+
+The Ministry of Finance's official [FY2026–27 Output-Outcome Monitoring Framework](https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf), Demand 32, records a **₹2,000 crore** incentive outlay for RuPay debit and BHIM-UPI small P2M merchant payments, with performance targets. The amount is *not* evidence of money paid nor sufficient to calculate national switching costs. The pre-existing incentive's [FY2024–25 Cabinet terms](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2112771) paid 80% of an eligible acquired-bank claim unconditionally, then up to 10% for technical declines below 0.75% and another up to 10% for uptime above 99.5%. This was a subsidy **with service-level incentives**, not pure unconditional funding. The FY2026–27 outlay document does not re-specify all those rules, so do not assume identical conditions.
+
+The third-party-hosted [NPCI OC-237 copy](https://www.madhyabharatparidrishya.com/wp-content/uploads/2026/09/OC_237_MDR-2026.pdf), paragraph 4, prescribes capital-market gross MDR 0.02% with a ₹300 cap but references the paragraph 3 waterfall, which specifies 0.28% interchange, 0.12% PSP fee, 0.08% app fee in sequential transfers for the standard 0.40% merchant rate. Since 0.28% > 0.02%, **literal reuse is mathematically impossible**. There could be alternative scaling, separate clearing arrangements or a drafting ambiguity, but the published copy does not establish which. The website cost calculator displays **gross merchant charge only**, not this disputed provider allocation.
+
+Hypothetical capital-market ₹10,000 payment at 0.02% = ₹2 gross. Applying the standard interchange of 0.28% would imply an ₹28 onward transfer and an implicit funding deficit of ₹26 even before other onward transfers. This contradiction demonstrates why an authenticated schedule and regulator clarification are needed, and **does not prove the operational system is actually configured that way**.
+
+The same source page 1 note (b) excludes mandate pricing from OC-237; [official NPCI FAQ](https://www.npci.org.in/uploads/FA_Qs_Merchant_Discount_Rate_MDR_on_Select_UPI_P2_M_Transactions_58dba1d39e.pdf) Q22 confirms the prescribed new MDR excludes recurring AutoPay mandates.

@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 03 | Research cutoff: 15 October 2026 | India
+Edition 04 | Research cutoff: 15 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -181,3 +181,16 @@ Critical challenges to test: CASA margin is not equal to incremental UPI revenue
 **Survey evidence:** LocalCircles published 32,796 relevant merchant responses across 242 districts. Its 17%-willingness figure is conditional survey reporting. For consumers, the question about *preferred most-used payment method if UPI has an added cost* received 37,654 answers, with 76% choosing alternative methods. Another question received 31,206 responses and reported 14% accepting an extra charge. The publisher's forecasts of a **10% value drop** and **4% volume drop** are scenarios, not observed outcomes. Respondents to multiple questions must not be assumed unique; sample selection, response bias and representativeness are not established.
 
 See [full Edition 03 investigation](litigation-trade-surveys.md) for citations, chronological analysis and open questions.
+
+
+---
+
+# Edition 04: budget and operational checks — 15 October 2026
+
+- **S35 original Union Budget:** Ministry of Finance Output-Outcome Monitoring Framework FY2026–27 (https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf), Demand 32, printed p115 / PDF p123. Planned outlay **₹2,000 crore** for RuPay debit and low-value BHIM-UPI P2M incentives. Targets 10% UPI acceptance growth, **18,187 crore P2M** payments and **25% BHIM-UPI volume growth**. These are *allocated/targeted*, not spent/achieved. They establish FY2026–27 budgetary intention while the Government proposes later MDR, but not whether scheme criteria will be retained after MDR starts.
+- **S36 CBDT official history:** Circular 16/2020 dated 30 August 2020, Income Tax Department record https://www.incometaxindia.gov.in/w/circular-no.-16/2020-imposition-of-charge-on-the-prescribed-electronic-modes-under-section-269su-of-the-income-tax-act-1961 . Instructed banks to refund covered prohibited charges collected from 1 January 2020, and cited penalties under the then applicable legal rules. Never extrapolate the 2020 legal status directly to 2026 without considering Act 21/2026.
+- **S37 regulatory comparison:** RBI 1 September 2016 debit-card MDR unbundling, https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10591 . Require separate disclosure and merchant education in *card* acceptance. This is historical transparency precedent, not proof the same law applies unchanged to 2026 account-funded UPI MDR.
+- **New circular ambiguity:** Third-party mirror of NPCI OC-237 page 1, paragraphs 3 and 4. Capital markets receive a **0.02% rate**, but paragraph 4 refers to a standard provider distribution with stated sequential onward rates **0.28%, 0.12%, 0.08%**. They cannot apply literally to a 0.02% gross fee. Source neither describes a clearly scaled allocation table nor supplies a worked example. *Unresolved operational interpretation; do not invent one.*
+- **Mandate exception:** OC-237 page 1 note (b): mandate-related pricing excluded from that circular's scope. NPCI FAQ Q22 likewise says prescribed new transaction MDR does not apply to UPI AutoPay standing instructions. This does not imply every possible existing mandate charge is zero.
+
+[Full Edition 04 analysis](funding-operations.md).

@@ -2,7 +2,7 @@
 
 Independent public-interest investigation into India's Unified Payments Interface merchant discount rate: policy history, legal framework, merchant costs, subsidy, sectoral exceptions, and alternative funding models.
 
-**Edition:** 03, 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
+**Edition:** 04, 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
 
 ## GitHub Pages
 
@@ -22,6 +22,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - Follow the Money: interactive, source-qualified fee waterfall, fund exceptions and FAQ findings.
 - Timeline: source-linked chronology and official-versus-reported classifications.
 - Court & Trade: independently attributed litigation update, retailers' own statements and survey findings with sample-size caveats.
+- Funding audit: official FY2026–27 incentive budget, 2020 CBDT refund enforcement, and unresolved capital-market fee distribution.
 - The Numbers: NPCI Apr–Sep 2026 network volumes and interpretation safeguards.
 - Cost Lab: functioning proposed-fee calculator with P2P/P2M/P2PM and sector exceptions, compared against a hypothetical alternative.
 - Claim Tracker: search, status filters, claimant records and clickable sources.
@@ -33,6 +34,7 @@ Each push to main triggers GitHub's built-in **pages build and deployment** proc
 - [Research and evidence ledger](research/ledger.md), including Edition 02 legal audit and 26 claim cases
 - [Economics and sensitivity notebook](research/economics.md), including gross-to-net MDR, conditional revenue ceiling and pricing-cliff arithmetic
 - [Litigation, trader and survey investigation](research/litigation-trade-surveys.md), including the corrected September 28 procedural timeline
+- [Funding and operating rules audit](research/funding-operations.md), including primary budget targets and operational gaps.
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
 - GitHub Pages: native branch deployment from `main`, `/(root)` (no custom workflow)
@@ -50,7 +52,7 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 
 ## Latest evidence checkpoint
 
-As of Edition 03: 34 linked source records, 33 attributed/qualified claims, 17 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+As of Edition 04: 37 linked source records, 39 claim assessments, 19 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
 
 The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
 
