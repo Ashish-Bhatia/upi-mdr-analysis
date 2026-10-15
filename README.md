@@ -6,16 +6,15 @@ Independent public-interest investigation into India's Unified Payments Interfac
 
 ## GitHub Pages
 
-**Intended website:** https://ashish-bhatia.github.io/upi-mdr-analysis/
+**Website:** https://ashish-bhatia.github.io/upi-mdr-analysis/
 
-The site is fully implemented as static HTML, CSS and JavaScript. The Pages workflow deploys after you activate GitHub Pages:
+**Publishing model:** GitHub Pages → **Deploy from a branch** → **main** → **/(root)**. The default branch is main and native GitHub Pages branch builds have already completed successfully. The site is plain HTML, CSS and JavaScript; no custom deployment workflow is required.
 
-1. Open [Settings → Pages](https://github.com/Ashish-Bhatia/upi-mdr-analysis/settings/pages).
-2. Choose **Source: GitHub Actions** under Build and deployment.
-3. Review [Actions](https://github.com/Ashish-Bhatia/upi-mdr-analysis/actions). If needed run **Publish UPI MDR investigation** manually.
-4. Verify a successful run and then open the intended website URL.
+To confirm or adjust the repository setting, open [Settings → Pages](https://github.com/Ashish-Bhatia/upi-mdr-analysis/settings/pages), select **Deploy from a branch** for Source, set **main** and **/(root)**, and click **Save**. This repository is designed for exactly that setting.
 
-**Do not treat this URL as live until activation and a successful deployment are verified.** The connected GitHub tool supports editing repository files but has no Pages administration action.
+Each push to main triggers GitHub's built-in **pages build and deployment** process. That process will continue to appear in the [Actions history](https://github.com/Ashish-Bhatia/upi-mdr-analysis/actions), even without a custom `.github/workflows/*.yml` file. The root `.nojekyll` marker disables unnecessary Jekyll processing of the static site.
+
+**Deployment incident, 15 Oct 2026:** a redundant custom workflow named `Publish UPI MDR investigation` ran alongside GitHub's built-in branch deployment. One rerun failed because GitHub's `deploy-pages@v4` found two saved artifacts named `github-pages` within that workflow run. Other red entries were cancellations of obsolete builds during successive quick commits. The custom workflow was removed in favor of native branch publishing.
 
 ## Features
 
@@ -34,7 +33,7 @@ The site is fully implemented as static HTML, CSS and JavaScript. The Pages work
 - [Economics and sensitivity notebook](research/economics.md), including gross-to-net MDR, conditional revenue ceiling and pricing-cliff arithmetic
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
-- [GitHub Pages deployment](.github/workflows/pages.yml)
+- GitHub Pages: native branch deployment from `main`, `/(root)` (no custom workflow)
 
 No external JavaScript packages, backend, analytics, cookies or API credentials are required. The site uses relative paths, supporting GitHub Pages project subpaths. External font loading is optional and falls back to system fonts.
 
@@ -44,7 +43,7 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 2. Record provenance and limits in research/ledger.md. Distinguish issuer statements from demonstrated outcomes.
 3. Add or revise claim items, timelines and sources in data.js. Each contested claim retains claimant, status and citations.
 4. When a fee or effective date changes, update index.html and the calculator rules in app.js.
-5. Commit to main. The workflow republishes site changes automatically once Pages is active.
+5. Commit to `main`. GitHub Pages republishes from `/(root)` using its built-in branch-based deployment.
 6. Document material corrections. Do not overwrite uncertain observations with unsupported declarations.
 
 ## Latest evidence checkpoint
