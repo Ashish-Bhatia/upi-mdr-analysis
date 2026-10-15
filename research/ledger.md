@@ -54,11 +54,11 @@ Profit example: a 0.4% fee on gross sale compared with a hypothetical 5% net mar
 
 ## Open primary-source requests
 
-1. Signed September 14 Gazette notification, number and enacted amendments to PSS Act section 10A.
-2. NPCI full OC-237 dated September 15 and September MDR FAQs with exemptions, fee splits, GST, merchant-category coding, refund rules and cap calculations.
-3. Original NPCI October 13 deferral circular and next effective-date notification.
+1. Confirm an accessible official copy of S.O. 5067(E), Gazette ID CG-DL-E-14092026-276170, and Act 21/2026 (documents identified in Edition 02).
+2. Authenticate NPCI Circular OC-237 against the original NPCI-domain issue (four-page third-party copy and official 42-question FAQ now reviewed in Edition 02), and resolve GST, refund and rounding questions.
+3. Original NPCI October 13 press release and subsequent effective-date notice (the deferral is corroborated by Paytm's signed filing in Edition 02).
 4. Merchant P2M eligible value/volume by amount band and category, to independently test the 96% estimate.
-5. Payment ecosystem cost accounts, fraud and cyber operating costs, and the actual revenue split.
+5. Audited payment-ecosystem cost accounts, fraud and cyber operating expenses, the actual fee distribution after fund contributions and GST, and bank-acquirer transaction statements.
 6. Full authors' paper and methodology behind the quoted CASA bank earnings and 0.08% recommendation.
 7. Original Supreme Court petition, registry details and any signed orders. Filing alone is not a judicial decision.
 8. Published evidence on merchant pass-through to consumer prices, cash-substitution and differential retailer margins.
