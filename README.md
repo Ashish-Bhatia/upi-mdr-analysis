@@ -2,7 +2,7 @@
 
 Independent public-interest investigation into India's Unified Payments Interface merchant discount rate: policy history, legal framework, merchant costs, subsidy, sectoral exceptions, and alternative funding models.
 
-**Edition:** 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
+**Edition:** 02, 15 October 2026. Not affiliated with RBI, NPCI, the Ministry of Finance or cited researchers.
 
 ## GitHub Pages
 
@@ -20,6 +20,7 @@ The site is fully implemented as static HTML, CSS and JavaScript. The Pages work
 ## Features
 
 - The Story: editorial narrative and competing arguments.
+- Follow the Money: interactive, source-qualified fee waterfall, fund exceptions and FAQ findings.
 - Timeline: source-linked chronology and official-versus-reported classifications.
 - The Numbers: NPCI Apr–Sep 2026 network volumes and interpretation safeguards.
 - Cost Lab: functioning proposed-fee calculator with P2P/P2M/P2PM and sector exceptions, compared against a hypothetical alternative.
@@ -29,7 +30,8 @@ The site is fully implemented as static HTML, CSS and JavaScript. The Pages work
 
 ## Repository structure
 
-- [Research and evidence ledger](research/ledger.md)
+- [Research and evidence ledger](research/ledger.md), including Edition 02 legal audit and 26 claim cases
+- [Economics and sensitivity notebook](research/economics.md), including gross-to-net MDR, conditional revenue ceiling and pricing-cliff arithmetic
 - [Claim and source dataset](data.js)
 - [Website](index.html), [visual design](styles.css), [interactions](app.js)
 - [GitHub Pages deployment](.github/workflows/pages.yml)
@@ -45,11 +47,17 @@ No external JavaScript packages, backend, analytics, cookies or API credentials 
 5. Commit to main. The workflow republishes site changes automatically once Pages is active.
 6. Document material corrections. Do not overwrite uncertain observations with unsupported declarations.
 
+## Latest evidence checkpoint
+
+As of Edition 02: 26 linked source records, 26 attributed/qualified claims, 13 chronology events. Key upgrades include a copy of Circular OC-237 containing the 0.40% inter-party waterfall, the 42-question NPCI FAQ, identified official Gazette Act/notification IDs, signed Paytm confirmation of postponement, and corrected exceptions to the proposed 5% fund. One independently hosted circular copy has not been authenticated on NPCI's own domain.
+
+The 0.08% researchers' alternative is **not** merely the same policy with a lower rate: published accounts also describe different merchant eligibility, app/PSP revenue distribution and a proposed CASA-funded bank contribution. We have not obtained the full paper, so those details are sourced to labelled reporting.
+
 ## Critical unresolved items
 
-- The original NPCI Circular OC-237/2026–27, dated 15 September 2026.
-- The 14 September 2026 Gazette notification and final enacted Section 10A wording.
-- Original NPCI 13 October deferral notice and subsequent implementation notification.
+- Official NPCI-domain authentication of Circular OC-237/2026–27 (four-page third-party copy reviewed and corroborated by signed exchange filing).
+- Official Gazette PDFs reliably retrieved (Act 21/2026 and S.O. 5067(E) IDs located, enactment text separately cross-corroborated).
+- Original NPCI 13 October deferral press note and subsequent implementation notification (signed Paytm disclosure of deferral now archived in source ledger).
 - Merchant category and ticket-size dataset needed to validate the reported 96% exempt transactions and revenue forecasts.
 - Original full-text researchers' paper, evidence on bank income and audited MDR cost allocations.
 - Original Supreme Court filing/case number and any signed judicial order.
