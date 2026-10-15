@@ -66,3 +66,17 @@ Profit example: a 0.4% fee on gross sale compared with a hypothetical 5% net mar
 Add sources with document date, publisher, URL, verification class and precise scope. Revise claim status when evidence changes. Record policy-effective dates separately from announcement dates. Commit substantive corrections with a changelog entry; never turn reports or estimates into verified transactional facts.
 
 This project is independent commentary. It is not affiliated with RBI, NPCI, Government of India, or the cited researchers.
+
+
+## Additional named-claim and parliamentary leads (edition 01)
+
+| ID | Record | Status |
+|---|---|---|
+| S16 | [Indian Express: opposition claims about US pressure and UPI fee](https://indianexpress.com/article/political-pulse/upi-mdr-transaction-fee-hike-opposition-protest-alleges-us-pressure-10881197/) | Secondary, exact attributions reported. Neither a claimed US pressure campaign nor consumer pass-through is independently established. |
+| S17 | [India Today: government/opposition dispute over standing-committee endorsement](https://www.indiatoday.in/india/story/upi-mdr-row-government-cites-no-dissent-congress-says-specific-proposal-never-discussed-disputes-finance-panel-backing-2996943-2026-09-17) | Secondary. The disagreement does not itself determine what exact rates the committee endorsed. |
+| S18 | [Ikigai Law: payments policy and sector funding discussion](https://www.ikigailaw.com/article/693/fintales-edition-48---upi-monetisation-and-revolving-credit-rules) | Secondary. Reported ₹20,700 crore payment processing cost and ₹2,000 crore budget provision require original source and scope validation. |
+| S19 | [Sansad eLibrary catalog: 32nd Standing Committee on Finance Report, 12 March 2026](https://elibrary.sansad.in/items/435c4f84-01da-4686-aaa9-edda73d105ab/full) | Primary parliamentary catalog located; original 18_Finance_32.pdf contents **not read or authenticated here**. |
+
+**Named political claim test:** A publicly attributed assertion that the MDR is a tax on every UPI user or is paid straight to the United States conflicts with the Government's documented P2P exemptions and its description of MDR as merchant ecosystem remuneration. The further political allegation of pressure from the United States remains unsubstantiated on the primary evidence gathered, which is different from proving such pressure never existed. Independent evidence of lobbying and causal influence would be needed to settle it.
+
+**Committee endorsement test:** The parliamentary report predates the September tariff. Its issuance and topic are now verified at the Sansad eLibrary catalog level. Without comparing the operative pages of its original PDF with the exact 0.4% plan, do not assert endorsement of the precise rate, exempt threshold, or distribution formula.
