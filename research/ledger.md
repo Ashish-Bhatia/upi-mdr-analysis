@@ -1,6 +1,6 @@
 # The UPI MDR Story — Evidence Ledger
 
-Edition 06 | Research cutoff: 15 October 2026 | India
+Edition 07 | Research cutoff: 16 October 2026 | India
 
 > **Update notice:** The Edition 01 lower-priority source-retrieval status has been superseded by the dated findings below. This ledger retains some original investigation notes for audit history; where they conflict, prefer the Edition 02 corrections.
 
@@ -232,3 +232,50 @@ See [full Edition 03 investigation](litigation-trade-surveys.md) for citations, 
 **F. Original academic work retrieval.** Original Ashish Das/Praggya Das [40-page PDF](https://www.math.iitb.ac.in/~ashish/workshop/MDR_on_UPI_Oct11.pdf) appears in indexed search as published 11 October 2026, but both direct web-open and container download failed. The [ET Now article](https://www.etnownews.com/news/upi-mdr-may-burden-costs-on-consumers-flags-iit-bombay-report-seeks-framework-tweak-before-implementation-article-156320435) is explicitly secondary coverage. Do not claim page-level reading of the full original.
 
 [Full Edition 06 report](merchant-value-audit.md).
+
+
+---
+
+# Edition 07 — first-party postponement and government-commissioned baseline (16 October 2026)
+
+## Corrected source status: NPCI's own postponement notice verified
+
+**S52** Original [NPCI press-release PDF, 13 October 2026](https://www.npci.org.in/uploads/UPI_MDR_on_Select_Merchant_Transactions_Shall_be_Implemented_Post_Diwali_4c9cdd77d5.pdf), opened and visually inspected. The one-page announcement says the *UPI and Services Steering Committee* deferred the proposed select P2M MDR until after Diwali, with the specific date to be separately notified. This is a **primary source**, superseding earlier assertions that the NPCI press release was unavailable. An exact date such as 1 January 2027 is speculative, not official.
+
+**Remaining NPCI gap:** This is an authentic first-party *postponement announcement*, **not** the original four-page NPCI Circular OC-237 containing tariff details. The OC-237 copy remains independently hosted with corporate filing corroboration; official NPCI-hosted complete copy and clarifications are still outstanding.
+
+## Government assessment, report provenance and qualitative limits
+
+**S53** [Ministry of Finance/DFS original PIB release, 16 February 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651) names Ipsos Research Pvt Ltd as third-party contractor working in consultation with NPCI. It reports **10,378** face-to-face CAPI respondents from **15 states**: **6,167 users, 2,199 merchants, 2,012 service providers**. Fieldwork was **22 July–25 August 2025**. Within this sampled population the release reports **72% of merchants satisfied** with digital payments, **57% self-report increased sales** after adopting digital payments and **94% of sampled small merchants using UPI**.
+
+These are historical pre-MDR **survey/descriptive findings**. They do not establish nationally representative rates without sampling weights, nor prove that the scheme alone *caused* sales increases, nor measure the behavioural impact of the proposed 2026 merchant charges. Government publication of a commissioned third-party study does not by itself make it an independent causal trial.
+
+**S54** The original [government-hosted 2026 impact-analysis PDF](https://financialservices.gov.in/beta/sites/default/files/socio-economic-impact-incentive-scheme.pdf) was identified from the Ministry's own linked document and selectively indexed text, but direct PDF fetch returned 404/502. **Do not claim full report reviewed page by page**. Indexed text contains an additional scenario of 76% reverting to cash **if UPI became unavailable**. This is not the same question as the [LocalCircles 2026 consumer survey](https://www.localcircles.com/a/press/page/upi-mdr-consumer-survey) asking about methods **if UPI became more expensive**, even though both report a rounded 76% outcome.
+
+## Scheme disbursement reconciliation — key accounting correction
+
+Original [Cabinet PIB release 19 March 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2112771) separately presents total payout, RuPay debit and BHIM-UPI amounts for first three years. The 2026 DFS release supplies FY2024–25 and a four-year total:
+
+| FY | Total scheme disbursement ₹ crore | BHIM-UPI ₹ crore | RuPay debit ₹ crore | Provenance |
+|---|---:|---:|---:|---|
+| 2021–22 | 1,389 | 957 | 432 | Cabinet PIB |
+| 2022–23 | 2,210 | 1,802 | 408 | Cabinet PIB |
+| 2023–24 | 3,631 | 3,268 | 363 | Cabinet PIB |
+| 2024–25 | 1,046 | Not independently separated | Not independently separated | DFS study announcement |
+| **Total** | **8,276** | **6,027 identified in first 3 FYs** | **1,203 identified in first 3 FYs** | Both |
+
+Check: 1,389 + 2,210 + 3,631 + 1,046 = **8,276**. First three years total **7,230** = BHIM-UPI **6,027** plus RuPay debit **1,203**. Treating ₹8,276 crore as exclusively BHIM-UPI is incorrect.
+
+The Cabinet **approved an estimated FY2024–25 outlay of ₹1,500 crore**, whereas DFS later *reported ₹1,046 crore in FY2024–25 disbursements* for the studied scheme. Do not conflate voted/approved scheme outlay with settled reimbursements or assume the difference ₹454 crore establishes savings, lapsed claims or a fiscal shortfall without accounting and release data.
+
+## Specific evidence test
+
+**Hypothesis:** the UPI MDR would reverse the adoption and merchant-experience benefits of the earlier zero-MDR incentive scheme.
+
+**What primary evidence supports:** merchant satisfaction and perceived sales changes under the old environment; actual first-party scheme disbursements; value of testing merchant price sensitivity.
+
+**What remains unproved:** merchant exit rate after MDR, ex-post effects of a charge not yet implemented, cost-based appropriateness of 0.4%, fraction of merchants able to claim GST ITC, and the net social value of replacing or complementing public subsidy.
+
+**Further work:** pursue full Ipsos PDF using government archive or alternate DFS host, raw survey questionnaire/weights, original OC-237 on NPCI's server, SCI signed 28 September order, and actual scheme financial releases.
+
+[Full Edition 07 audit](evaluation-and-primary-notice.md).

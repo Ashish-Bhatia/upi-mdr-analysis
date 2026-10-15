@@ -123,3 +123,16 @@ The ≈₹1,500-crore/month arithmetic matches the [secondary account of the Das
 A [NPCI-attributed September payment-series analysis](https://data.indiadispatch.com/payments) reports **63.3% P2M share of ALL UPI count** and **30.2% share of ALL UPI value**. In August, the approximately 620 million >₹2,000 merchant payments were about **2.53% of the 24,508.96 million total UPI network count** per [NPCI monthly data](https://www.npci.org.in/product/upi/product-statistics), versus 4% of *merchant* count. This is a denominator correction; it does not change the reported 96% merchant-count exemption narrative.
 
 **Policy significance:** A payment fee may affect a low share of transaction count yet a disproportionately large share of merchant turnover. Merchant margins, surcharges, incentives and realised chargeability vary by sector. The cost incidence study must weight both merchants and transaction value, not just count.
+
+
+## 11. Edition 07: reconcile scheme payouts and avoid false causal attribution
+
+The Department of Financial Services' [Feb 16 2026 impact evaluation announcement](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651) presents **₹8,276 crore cumulative incentives across FY2021–22 to FY2024–25**. The [Cabinet's March 19 2025 release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2112771) breaks out UPI versus RuPay debit payouts for the first three years. Totals: FY22 ₹1,389 crore = UPI ₹957 + RuPay ₹432; FY23 ₹2,210 = ₹1,802 + ₹408; FY24 ₹3,631 = ₹3,268 + ₹363. FY25 adds ₹1,046 crore under the subsequent evaluation, with no independently reviewed exact product split. **Do not describe ₹8,276 crore as UPI-only subsidy.**
+
+The Cabinet's **₹1,500-crore FY25 approved outlay** versus the later **₹1,046-crore FY25 reported disbursement** are not comparable as though every approved rupee had to be paid within the same timing and accounting category. The arithmetic difference is ₹454 crore, not evidence of actual programme savings absent release and carryover accounts.
+
+The same retrospective study interviewed 2,199 merchants in July–August 2025 and reports 72% satisfied with digital payments and 57% reporting increased sales following adoption. These figures measure attitudes and self-reported outcomes *before* the September 2026 merchant fee was proposed; they do not prove the fiscal incentive caused business revenue growth. The 2026 LocalCircles fee survey measures stated future price responses under different questions. The studies cannot be pooled.
+
+The original [October 13 NPCI deferral announcement](https://www.npci.org.in/uploads/UPI_MDR_on_Select_Merchant_Transactions_Shall_be_Implemented_Post_Diwali_4c9cdd77d5.pdf) is now directly reviewed and settles the **old implementation date** question, but not the effective date after Diwali.
+
+This first-party reconstruction is more reliable than projecting 0.4% on network-wide payment value. Credible policy accounting requires at least: product-level actual disbursement, incremental MDR-eligible turnover, merchant incidence, public-fund contribution, participant cost books, and measurable technical-decline/uptime outcomes.
