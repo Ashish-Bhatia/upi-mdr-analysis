@@ -88,6 +88,22 @@ function renderChart(){
  });
  root.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 290" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="chart-title"><title id="chart-title">UPI monthly total transaction volume, crore, April to September 2026</title>'+items+'</svg>';
 }
+function setupMoneyFlow(){
+ const buttons=Array.from(document.querySelectorAll(".money-option"));
+ if(!buttons.length)return;
+ const breakdown=[["split-acquirer",.0012],["split-issuer",.0016],["split-psp",.0004],["split-app",.0008]];
+ const render=amount=>{
+  const gross=Math.round(amount*.004*100)/100;
+  $("money-total").textContent=money(gross);
+  breakdown.forEach(([id,rate])=>{$(id).textContent=money(Math.round(amount*rate*100)/100)});
+  buttons.forEach(b=>{
+   const active=Number(b.dataset.value)===amount;
+   b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));
+  });
+ };
+ buttons.forEach(b=>b.addEventListener("click",()=>render(Number(b.dataset.value))));
+ render(10000);
+}
 function initNavigation(){
  const menu=$("menu-button"),panel=$("mobile-nav");
  menu?.addEventListener("click",()=>{panel.hidden=!panel.hidden;menu.setAttribute("aria-expanded",String(!panel.hidden));menu.setAttribute("aria-label",panel.hidden?"Open navigation":"Close navigation")});
@@ -101,5 +117,5 @@ function initNavigation(){
  }
  document.addEventListener("scroll",onScroll,{passive:true});onScroll();
 }
-renderTimeline();renderSources();setupClaims();setupCalculator();renderChart();initNavigation();
+renderTimeline();renderSources();setupClaims();setupCalculator();setupMoneyFlow();renderChart();initNavigation();
 })();
